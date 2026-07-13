@@ -88,7 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let tagClass = 'source-default';
             let sourceName = job.source.toLowerCase();
-            if (sourceName.includes('reddit')) tagClass = 'source-reddit';
+            if (sourceName.includes('bd') || sourceName.includes('govt')) tagClass = 'source-reddit'; // Reuse red/orange styling
             else if (sourceName.includes('remotive')) tagClass = 'source-remotive';
             else if (sourceName.includes('weworkremotely')) tagClass = 'source-weworkremotely';
 
