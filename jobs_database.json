@@ -142,5 +142,41 @@
         "company": "Client",
         "link": "https://weworkremotely.com/remote-jobs/collaborative-solutions-workday-financials-analyst-consultant-global-delivery-center",
         "source": "WeWorkRemotely"
+    },
+    "https://europepmc.org/article/MED/42150941": {
+        "title": "Prof. Candice P Chu (Department of Veterinary Pathobiology, C...)",
+        "company": "Email: cchu@cvm.tamu.edu",
+        "link": "https://europepmc.org/article/MED/42150941",
+        "source": "Professors"
+    },
+    "https://europepmc.org/article/MED/42319452": {
+        "title": "Prof. Tong Xie (Guangzhou Key Laboratory of Forensic Mul...)",
+        "company": "Email: 1176346544@qq.com",
+        "link": "https://europepmc.org/article/MED/42319452",
+        "source": "Professors"
+    },
+    "https://europepmc.org/article/MED/42297898": {
+        "title": "Prof. Syed Saeid Mohtasebi (Department of Agricultural Machinery Eng...)",
+        "company": "Email: mohtaseb@ut.ac.ir",
+        "link": "https://europepmc.org/article/MED/42297898",
+        "source": "Professors"
+    },
+    "https://europepmc.org/article/MED/42343347": {
+        "title": "Prof. Chia-Hsuan Lee (Department of Data Science, Soochow Univ...)",
+        "company": "Email: sweat@scu.edu.tw",
+        "link": "https://europepmc.org/article/MED/42343347",
+        "source": "Professors"
+    },
+    "https://europepmc.org/article/MED/42209604": {
+        "title": "Prof. S Rajarajeswari (School of Computer Science and Engineeri...)",
+        "company": "Email: rajarajeswari.s@vit.ac.in",
+        "link": "https://europepmc.org/article/MED/42209604",
+        "source": "Professors"
+    },
+    "https://europepmc.org/article/MED/41955872": {
+        "title": "Prof. Lilong Chai (Department of Poultry Science, College o...)",
+        "company": "Email: lchai@uga.edu",
+        "link": "https://europepmc.org/article/MED/41955872",
+        "source": "Professors"
     }
 }
