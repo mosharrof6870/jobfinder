@@ -3,6 +3,7 @@ import xml.etree.ElementTree as ET
 import time
 import json
 import os
+import subprocess
 from datetime import datetime
 
 # ==========================================
@@ -35,6 +36,26 @@ def save_db(db):
     """Saves the database to keep track of active jobs."""
     with open(DB_FILE, 'w') as f:
         json.dump(db, f, indent=4)
+
+def push_to_github():
+    """Automatically pushes the updated database to GitHub so the live dashboard stays up to date."""
+    print("Pushing updated database to GitHub Pages...")
+    try:
+        # Add only the database file
+        subprocess.run(["git", "add", DB_FILE], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        
+        # Commit the changes (this will return non-zero if nothing to commit, so check=False)
+        result = subprocess.run(["git", "commit", "-m", "Auto-update: New opportunities found/closed"], 
+                                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        
+        # If commit was successful, push it
+        if result.returncode == 0:
+            subprocess.run(["git", "push", "origin", "main"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            print("✅ Successfully updated live dashboard on GitHub!")
+        else:
+            print("No changes to push to GitHub.")
+    except Exception as e:
+        print(f"⚠️ Failed to push to GitHub: {e}")
 
 def send_telegram_alert(message):
     if TELEGRAM_BOT_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN_HERE":
@@ -135,7 +156,9 @@ def check_existing_jobs(db):
             send_telegram_alert(msg)
             time.sleep(1)
             
-    save_db(db)
+    if closed_jobs:
+        save_db(db)
+        push_to_github()
 
 def main():
     print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Auto-Trigger Started. It will check for jobs every {CHECK_INTERVAL_MINUTES} minutes.")
@@ -193,12 +216,13 @@ def main():
                 send_telegram_alert(msg)
                 time.sleep(1) # Prevent spamming Telegram API
                 
-        save_db(db)
         
         if new_jobs_found == 0:
             print("No new jobs found this round.")
         else:
+            save_db(db)
             print(f"Found and saved {new_jobs_found} new jobs!")
+            push_to_github() # Update live dashboard
             
         # 4. Wait for the next interval (Auto Trigger)
         print(f"Waiting for {CHECK_INTERVAL_MINUTES} minutes until the next scan...")
