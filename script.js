@@ -86,9 +86,17 @@ document.addEventListener('DOMContentLoaded', () => {
             // Make sure company is styled nicely
             const companyIcon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2" ry="2"/><path d="M9 9h6"/><path d="M9 13h6"/><path d="M9 17h6"/></svg>`;
 
+            let tagClass = 'source-default';
+            let sourceName = job.source.toLowerCase();
+            if (sourceName.includes('reddit')) tagClass = 'source-reddit';
+            else if (sourceName.includes('remotive')) tagClass = 'source-remotive';
+            else if (sourceName.includes('weworkremotely')) tagClass = 'source-weworkremotely';
+
             card.innerHTML = `
                 <div>
-                    <span class="job-source">${job.source}</span>
+                    <div class="tag-container">
+                        <span class="job-source ${tagClass}">${job.source}</span>
+                    </div>
                     <h3 class="job-title">${job.title}</h3>
                     <div class="job-company">
                         ${companyIcon} ${job.company}
