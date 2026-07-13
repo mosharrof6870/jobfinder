@@ -98,6 +98,63 @@ def fetch_rss_feed(url, source_name):
         pass
     return matched_jobs
 
+def fetch_reddit_jobs():
+    print("Fetching from Reddit...")
+    matched_jobs = []
+    # Use JSON endpoints to avoid RSS timeouts/blocks
+    reddit_urls = [
+        ("https://www.reddit.com/r/forhire/new.json?limit=25", "Reddit (r/forhire)"),
+        ("https://www.reddit.com/r/slavelabour/new.json?limit=25", "Reddit (r/slavelabour)"),
+    ]
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 JobFinderBot/1.0'}
+    for url, source_name in reddit_urls:
+        try:
+            response = requests.get(url, headers=headers, timeout=10)
+            if response.status_code == 200:
+                data = response.json()
+                for child in data.get('data', {}).get('children', []):
+                    post = child['data']
+                    title = post.get('title', '')
+                    desc = post.get('selftext', '')
+                    link = "https://www.reddit.com" + post.get('permalink', '')
+                    
+                    # For hire/slavelabour, look for [Hiring] or [Task] tags
+                    if "[hiring]" not in title.lower() and "[task]" not in title.lower():
+                        continue
+                        
+                    if not is_good_fit(title):
+                        continue
+                        
+                    if any(kw in title.lower() or kw in desc.lower() for kw in KEYWORDS):
+                        matched_jobs.append({"title": title.strip(), "company": "Reddit User", "link": link, "source": source_name})
+        except Exception as e:
+            print(f"  [!] Could not fetch {source_name}: {e}")
+    return matched_jobs
+
+def fetch_weworkremotely_jobs():
+    print("Fetching from WeWorkRemotely...")
+    matched_jobs = []
+    try:
+        response = requests.get("https://weworkremotely.com/api/v1/jobs.json", timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            for category, jobs in data.items():
+                for job in jobs:
+                    title = job.get('title', '')
+                    desc = job.get('description', '')
+                    if not is_good_fit(title):
+                        continue
+                    if any(kw in title.lower() or kw in desc.lower() for kw in KEYWORDS):
+                        matched_jobs.append({
+                            "title": title,
+                            "company": job.get('company_name', 'Unknown'),
+                            "link": job['url'],
+                            "source": "WeWorkRemotely"
+                        })
+    except Exception as e:
+        print(f"  [!] Could not fetch WWR: {e}")
+    return matched_jobs
+
 def fetch_remotive_jobs():
     matched_jobs = []
     search_terms = ["flutter", "machine learning", "python"]
@@ -175,25 +232,8 @@ def main():
         print("Looking for new opportunities...")
         all_jobs = []
         
-        # Upwork RSS
-        upwork_urls = [
-            ("https://www.upwork.com/ab/feed/jobs/rss?q=flutter", "Upwork"),
-            ("https://www.upwork.com/ab/feed/jobs/rss?q=machine+learning", "Upwork"),
-            ("https://www.upwork.com/ab/feed/jobs/rss?q=research", "Upwork")
-        ]
-        for url, name in upwork_urls:
-            all_jobs.extend(fetch_rss_feed(url, name))
-            
-        # Reddit RSS
-        reddit_urls = [
-            ("https://www.reddit.com/r/forhire/new/.rss", "Reddit"),
-            ("https://www.reddit.com/r/slavelabour/new/.rss", "Reddit"),
-            ("https://www.reddit.com/r/MachineLearning/search.rss?q=hiring&restrict_sr=on&sort=new&t=all", "Reddit")
-        ]
-        for url, name in reddit_urls:
-            all_jobs.extend(fetch_rss_feed(url, name))
-            
-        # Remotive API
+        all_jobs.extend(fetch_weworkremotely_jobs())
+        all_jobs.extend(fetch_reddit_jobs())
         all_jobs.extend(fetch_remotive_jobs())
         
         # 3. Process the new jobs
