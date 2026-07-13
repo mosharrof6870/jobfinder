@@ -16,7 +16,8 @@ DB_FILE = "jobs_database.json"
 
 KEYWORDS = [
     "flutter", "dart", "machine learning", "deep learning", "computer vision", 
-    "vlsi", "risc-v", "fpga", "python developer"
+    "vlsi", "risc-v", "fpga", "python developer",
+    "research", "funding", "grant", "fellowship", "scholarship"
 ]
 
 EXCLUDE_WORDS = [
@@ -150,12 +151,26 @@ def main():
         # 2. Search for new jobs
         print("Looking for new opportunities...")
         all_jobs = []
+        
+        # Upwork RSS
         upwork_urls = [
-            ("https://www.upwork.com/ab/feed/jobs/rss?q=flutter", "Upwork (Flutter)"),
-            ("https://www.upwork.com/ab/feed/jobs/rss?q=machine+learning", "Upwork (ML)")
+            ("https://www.upwork.com/ab/feed/jobs/rss?q=flutter", "Upwork"),
+            ("https://www.upwork.com/ab/feed/jobs/rss?q=machine+learning", "Upwork"),
+            ("https://www.upwork.com/ab/feed/jobs/rss?q=research", "Upwork")
         ]
         for url, name in upwork_urls:
             all_jobs.extend(fetch_rss_feed(url, name))
+            
+        # Reddit RSS
+        reddit_urls = [
+            ("https://www.reddit.com/r/forhire/new/.rss", "Reddit"),
+            ("https://www.reddit.com/r/slavelabour/new/.rss", "Reddit"),
+            ("https://www.reddit.com/r/MachineLearning/search.rss?q=hiring&restrict_sr=on&sort=new&t=all", "Reddit")
+        ]
+        for url, name in reddit_urls:
+            all_jobs.extend(fetch_rss_feed(url, name))
+            
+        # Remotive API
         all_jobs.extend(fetch_remotive_jobs())
         
         # 3. Process the new jobs
