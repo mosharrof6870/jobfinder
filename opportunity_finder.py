@@ -140,49 +140,48 @@ def fetch_bd_govt_jobs():
     return matched_jobs
 
 def fetch_professors():
-    print("Searching for Professors/Labs (CV/DL/LLM)...")
+    print("Searching for Professors/Labs (CV/DL/LLM) via EuropePMC...")
     matched_jobs = []
-    
     import re
-    from bs4 import BeautifulSoup
     
-    # Highly targeted query for Professors looking for students
-    query = '"looking for ph.d. students" OR "research assistants" "computer vision" OR "deep learning" OR "llm" site:.edu'
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-    }
-    data = {'q': query}
+    # Query EuropePMC for latest papers in these fields
+    # It indexes many CS papers and includes verified author emails!
+    query = '("computer vision" OR "deep learning" OR "llm" OR "vlm" OR "vlsi" OR "machine learning")'
+    url = f"https://www.ebi.ac.uk/europepmc/webservices/rest/search?query={query}&format=json&resultType=core&pageSize=50&sort_date:y"
     
     try:
-        response = requests.post("https://html.duckduckgo.com/html/", headers=headers, data=data, timeout=15)
+        response = requests.get(url, timeout=15)
         if response.status_code == 200:
-            soup = BeautifulSoup(response.text, "html.parser")
-            results = soup.find_all("a", class_="result__snippet")
-            
-            for res in results[:8]: # Take top 8
-                lab_url = res.get("href")
-                if not lab_url: continue
-                if lab_url.startswith("//"): lab_url = "https:" + lab_url
+            data = response.json()
+            for result in data.get("resultList", {}).get("result", []):
+                paper_title = result.get("title", "")
+                paper_link = f"https://europepmc.org/article/MED/{result.get('pmid', '')}"
                 
-                try:
-                    # Visit the lab website to scrape email
-                    lab_resp = requests.get(lab_url, headers=headers, timeout=10)
-                    emails = list(set(re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.edu', lab_resp.text)))
-                    email_str = emails[0] if emails else "Email hidden"
-                    
-                    lab_soup = BeautifulSoup(lab_resp.text, "html.parser")
-                    title = lab_soup.title.text.strip() if lab_soup.title else "Research Lab"
-                    
-                    matched_jobs.append({
-                        "title": f"Lab: {title[:50]}",
-                        "company": f"Email: {email_str}",
-                        "link": lab_url,
-                        "source": "Professors"
-                    })
-                except:
-                    continue
+                for author in result.get("authorList", {}).get("author", []):
+                    if "authorAffiliationDetailsList" in author:
+                        for aff in author["authorAffiliationDetailsList"]["authorAffiliation"]:
+                            aff_str = aff.get("affiliation", "")
+                            # Extract email if present
+                            emails = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', aff_str)
+                            if emails:
+                                email = emails[0]
+                                # Clean affiliation name
+                                uni_name = aff_str.split('.')[0] if '.' in aff_str else "University / Lab"
+                                prof_name = f"{author.get('firstName', '')} {author.get('lastName', '')}".strip()
+                                
+                                # Avoid adding the exact same email twice
+                                if not any(j['company'] == f"Email: {email}" for j in matched_jobs):
+                                    matched_jobs.append({
+                                        "title": f"Prof. {prof_name} ({uni_name[:40]}...)",
+                                        "company": f"Email: {email}",
+                                        "link": paper_link,
+                                        "source": "Professors"
+                                    })
+                                    
+                if len(matched_jobs) >= 20: # Cap at 20 per run so it doesn't flood everything at once
+                    break
     except Exception as e:
-        print(f"  [!] Could not search Professors: {e}")
+        print(f"  [!] Could not search Professors API: {e}")
         
     return matched_jobs
 
