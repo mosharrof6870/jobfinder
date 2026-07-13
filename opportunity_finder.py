@@ -139,6 +139,53 @@ def fetch_bd_govt_jobs():
             
     return matched_jobs
 
+def fetch_professors():
+    print("Searching for Professors/Labs (CV/DL/LLM)...")
+    matched_jobs = []
+    
+    import re
+    from bs4 import BeautifulSoup
+    
+    # Highly targeted query for Professors looking for students
+    query = '"looking for ph.d. students" OR "research assistants" "computer vision" OR "deep learning" OR "llm" site:.edu'
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    data = {'q': query}
+    
+    try:
+        response = requests.post("https://html.duckduckgo.com/html/", headers=headers, data=data, timeout=15)
+        if response.status_code == 200:
+            soup = BeautifulSoup(response.text, "html.parser")
+            results = soup.find_all("a", class_="result__snippet")
+            
+            for res in results[:8]: # Take top 8
+                lab_url = res.get("href")
+                if not lab_url: continue
+                if lab_url.startswith("//"): lab_url = "https:" + lab_url
+                
+                try:
+                    # Visit the lab website to scrape email
+                    lab_resp = requests.get(lab_url, headers=headers, timeout=10)
+                    emails = list(set(re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.edu', lab_resp.text)))
+                    email_str = emails[0] if emails else "Email hidden"
+                    
+                    lab_soup = BeautifulSoup(lab_resp.text, "html.parser")
+                    title = lab_soup.title.text.strip() if lab_soup.title else "Research Lab"
+                    
+                    matched_jobs.append({
+                        "title": f"Lab: {title[:50]}",
+                        "company": f"Email: {email_str}",
+                        "link": lab_url,
+                        "source": "Professors"
+                    })
+                except:
+                    continue
+    except Exception as e:
+        print(f"  [!] Could not search Professors: {e}")
+        
+    return matched_jobs
+
 def fetch_weworkremotely_jobs():
     print("Fetching from WeWorkRemotely (RSS)...")
     # Using our custom RSS parser since JSON API returns 404
@@ -224,6 +271,7 @@ def main():
         all_jobs.extend(fetch_weworkremotely_jobs())
         all_jobs.extend(fetch_bd_govt_jobs())
         all_jobs.extend(fetch_remotive_jobs())
+        all_jobs.extend(fetch_professors())
         
         # 3. Process the new jobs
         new_jobs_found = 0
