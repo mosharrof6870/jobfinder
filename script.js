@@ -51,7 +51,12 @@ document.addEventListener('DOMContentLoaded', () => {
         
         let filteredJobs = allJobs;
         if (filter !== 'all') {
-            filteredJobs = allJobs.filter(job => job.source.toLowerCase().includes(filter.toLowerCase()));
+            filteredJobs = allJobs.filter(job => {
+                let src = job.source.toLowerCase();
+                let f = filter.toLowerCase();
+                if (f === 'bd govt' && (src.includes('ict') || src.includes('bcc') || src.includes('govt'))) return true;
+                return src.includes(f);
+            });
         }
 
         activeCount.textContent = filteredJobs.length;
@@ -93,20 +98,44 @@ document.addEventListener('DOMContentLoaded', () => {
             else if (sourceName.includes('remotive')) tagClass = 'source-remotive';
             else if (sourceName.includes('weworkremotely')) tagClass = 'source-weworkremotely';
 
-            card.innerHTML = `
-                <div>
-                    <div class="tag-container">
-                        <span class="job-source ${tagClass}">${job.source}</span>
+            let cardContent = '';
+            
+            if (sourceName.includes('professors')) {
+                const emailIcon = `<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>`;
+                let pureEmail = job.company.replace('Email: ', '');
+                cardContent = `
+                    <div>
+                        <div class="tag-container">
+                            <span class="job-source ${tagClass}">Research Lead</span>
+                        </div>
+                        <h3 class="job-title" style="color: #c4b5fd;">${job.title}</h3>
+                        <div class="job-company" style="color: #e2e8f0; font-weight: 500;">
+                            ${emailIcon} 
+                            <a href="mailto:${pureEmail}" style="color: #93c5fd; text-decoration: none; margin-left: 5px;">${pureEmail}</a>
+                        </div>
                     </div>
-                    <h3 class="job-title">${job.title}</h3>
-                    <div class="job-company">
-                        ${companyIcon} ${job.company}
+                    <div class="job-action">
+                        <a href="${job.link}" target="_blank" rel="noopener noreferrer" class="apply-btn" style="background: rgba(139, 92, 246, 0.15); border-color: #8b5cf6;">Visit Lab Website</a>
                     </div>
-                </div>
-                <div class="job-action">
-                    <a href="${job.link}" target="_blank" rel="noopener noreferrer" class="apply-btn">View Opportunity</a>
-                </div>
-            `;
+                `;
+            } else {
+                cardContent = `
+                    <div>
+                        <div class="tag-container">
+                            <span class="job-source ${tagClass}">${job.source}</span>
+                        </div>
+                        <h3 class="job-title">${job.title}</h3>
+                        <div class="job-company">
+                            ${companyIcon} ${job.company}
+                        </div>
+                    </div>
+                    <div class="job-action">
+                        <a href="${job.link}" target="_blank" rel="noopener noreferrer" class="apply-btn">View Opportunity</a>
+                    </div>
+                `;
+            }
+            
+            card.innerHTML = cardContent;
             jobBoard.appendChild(card);
         });
     }
