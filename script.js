@@ -147,6 +147,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Tab Navigation Logic
+    const tabBtns = document.querySelectorAll('.filter-btn');
+    const sections = document.querySelectorAll('.category-section');
+    
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            // Remove active class from all buttons
+            tabBtns.forEach(b => b.classList.remove('active'));
+            // Add active class to clicked button
+            e.target.classList.add('active');
+            
+            // Hide all sections
+            sections.forEach(sec => sec.style.display = 'none');
+            
+            // Show target section
+            const targetId = e.target.getAttribute('data-tab');
+            document.getElementById(targetId).style.display = 'block';
+        });
+    });
+
     // Event Listeners
     refreshBtn.addEventListener('click', () => {
         // Rotate icon for feedback

@@ -26,6 +26,13 @@
             </div>
         </header>
 
+        <div class="filters" id="tab-navigation">
+            <button class="filter-btn active" data-tab="jobs-tab">💼 Jobs & Internships</button>
+            <button class="filter-btn" data-tab="funding-tab">🎓 Scholarships & Funding</button>
+            <button class="filter-btn" data-tab="professors-tab">🔬 Professors (Emails)</button>
+            <button class="filter-btn" data-tab="papers-tab">📄 Research Papers</button>
+        </div>
+
         <main>
             <div id="loader" class="loader-container">
                 <div class="spinner"></div>
@@ -33,23 +40,19 @@
             </div>
             
             <div id="content-area" style="display: none;">
-                <section class="category-section">
-                    <h2 class="section-title">💼 Jobs & Internships</h2>
+                <section id="jobs-tab" class="category-section">
                     <div id="jobs-grid" class="job-grid"></div>
                 </section>
                 
-                <section class="category-section">
-                    <h2 class="section-title">🎓 Scholarships & Research Funding</h2>
+                <section id="funding-tab" class="category-section" style="display: none;">
                     <div id="funding-grid" class="job-grid"></div>
                 </section>
 
-                <section class="category-section">
-                    <h2 class="section-title">🔬 Professors & Lab Leads (Emails)</h2>
+                <section id="professors-tab" class="category-section" style="display: none;">
                     <div id="professors-grid" class="job-grid"></div>
                 </section>
                 
-                <section class="category-section">
-                    <h2 class="section-title">📄 Latest Research Papers</h2>
+                <section id="papers-tab" class="category-section" style="display: none;">
                     <div id="papers-grid" class="job-grid"></div>
                 </section>
             </div>
