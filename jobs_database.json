@@ -299,12 +299,6 @@
         "link": "https://gtr.ukri.org/gtr/api/projects?q=computer+science",
         "source": "UKRI"
     },
-    "http://www.nsf.gov/div/index.jsp?div=CNS": {
-        "title": "Funder: Division of Computer and Network Systems",
-        "company": "US - government organization in Arlington, United State...",
-        "link": "http://www.nsf.gov/div/index.jsp?div=CNS",
-        "source": "OpenAlex"
-    },
     "http://www.nsf.gov/dir/index.jsp?org=CISE": {
         "title": "Funder: Directorate for Computer and Information Science and Engineering",
         "company": "US - ...",
@@ -333,12 +327,6 @@
         "title": "Funder: Institut national de recherche en informatique et en automatique (INRIA)",
         "company": "FR - French research institution in computer science...",
         "link": "https://inria.fr",
-        "source": "OpenAlex"
-    },
-    "http://www.ccf.org.cn/sites/ccf": {
-        "title": "Funder: China Computer Federation",
-        "company": "CN - computer science organization in Beijing, China...",
-        "link": "http://www.ccf.org.cn/sites/ccf",
         "source": "OpenAlex"
     },
     "https://openalex.org/F4320327047": {
