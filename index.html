@@ -27,7 +27,8 @@
         </header>
 
         <div class="filters" id="tab-navigation">
-            <button class="filter-btn active" data-tab="jobs-tab">💼 Jobs & Internships</button>
+            <button class="filter-btn active" data-tab="latest-tab">🔥 Latest</button>
+            <button class="filter-btn" data-tab="jobs-tab">💼 Jobs & Internships</button>
             <button class="filter-btn" data-tab="funding-tab">🎓 Scholarships & Funding</button>
             <button class="filter-btn" data-tab="professors-tab">🔬 Professors (Emails)</button>
             <button class="filter-btn" data-tab="papers-tab">📄 Research Papers</button>
@@ -40,7 +41,11 @@
             </div>
             
             <div id="content-area" style="display: none;">
-                <section id="jobs-tab" class="category-section">
+                <section id="latest-tab" class="category-section">
+                    <div id="latest-grid" class="job-grid"></div>
+                </section>
+
+                <section id="jobs-tab" class="category-section" style="display: none;">
                     <div id="jobs-grid" class="job-grid"></div>
                 </section>
                 

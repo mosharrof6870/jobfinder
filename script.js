@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const refreshBtn = document.getElementById('refreshBtn');
     
     const grids = {
+        latest: document.getElementById('latest-grid'),
         jobs: document.getElementById('jobs-grid'),
         funding: document.getElementById('funding-grid'),
         professors: document.getElementById('professors-grid'),
@@ -136,6 +137,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 grids.jobs.appendChild(card);
             } else {
                 grids.funding.appendChild(card);
+            }
+            // Also add a clone of the card to the Latest tab if it's one of the newest 40
+            if (index < 40) {
+                grids.latest.appendChild(card.cloneNode(true));
             }
         });
         
