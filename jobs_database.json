@@ -544,17 +544,5 @@
         "company": "PI/Author: Jia Chen",
         "link": "http://arxiv.org/abs/2607.13837v1",
         "source": "ArXiv Papers"
-    },
-    "http://www.nsf.gov/div/index.jsp?div=CNS": {
-        "title": "Funder: Division of Computer and Network Systems",
-        "company": "US - government organization in Arlington, United State...",
-        "link": "http://www.nsf.gov/div/index.jsp?div=CNS",
-        "source": "OpenAlex"
-    },
-    "http://www.ccf.org.cn/sites/ccf": {
-        "title": "Funder: China Computer Federation",
-        "company": "CN - computer science organization in Beijing, China...",
-        "link": "http://www.ccf.org.cn/sites/ccf",
-        "source": "OpenAlex"
     }
 }
