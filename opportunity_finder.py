@@ -17,7 +17,7 @@ DB_FILE = "jobs_database.json"
 
 KEYWORDS = [
     "flutter", "dart", "machine learning", "deep learning", "computer vision", 
-    "vlsi", "risc-v", "fpga", "python developer",
+    "vlsi", "risc-v", "fpga", "python developer", "ml", "dl", "classification",
     "research", "funding", "grant", "fellowship", "scholarship",
     "বৃত্তি", "ফেলোশিপ", "অনুদান", "গবেষণা", "আবেদন", "প্রশিক্ষণ"
 ]
@@ -178,7 +178,7 @@ def fetch_professors():
                                         "source": "Professors"
                                     })
                                     
-                if len(matched_jobs) >= 20: # Cap at 20 per run so it doesn't flood everything at once
+                if len(matched_jobs) >= 50: # Cap increased to 50 per run
                     break
     except Exception as e:
         print(f"  [!] Could not search Professors API: {e}")
@@ -192,7 +192,7 @@ def fetch_weworkremotely_jobs():
 
 def fetch_remotive_jobs():
     matched_jobs = []
-    search_terms = ["flutter", "machine learning", "python"]
+    search_terms = ["flutter", "machine learning", "python", "deep learning", "computer vision", "ml", "dl"]
     try:
         for term in search_terms:
             response = requests.get(f"https://remotive.com/api/remote-jobs?search={term}", timeout=10)
@@ -228,7 +228,7 @@ def fetch_nsf_awards():
                     "link": link,
                     "source": "NSF USA"
                 })
-                if len(matched_jobs) >= 20: break
+                if len(matched_jobs) >= 50: break
     except Exception as e:
         print(f"  [!] NSF Error: {e}")
     return matched_jobs
@@ -253,7 +253,7 @@ def fetch_ukri_projects():
                     "link": link,
                     "source": "UKRI"
                 })
-                if len(matched_jobs) >= 20: break
+                if len(matched_jobs) >= 50: break
     except Exception as e:
         print(f"  [!] UKRI Error: {e}")
     return matched_jobs
@@ -278,7 +278,7 @@ def fetch_openalex_funders():
                     "link": link,
                     "source": "OpenAlex"
                 })
-                if len(matched_jobs) >= 20: break
+                if len(matched_jobs) >= 50: break
     except Exception as e:
         print(f"  [!] OpenAlex Error: {e}")
     return matched_jobs
@@ -286,7 +286,7 @@ def fetch_openalex_funders():
 def fetch_openaire_projects():
     print("Fetching from OpenAIRE (Europe)...")
     matched_jobs = []
-    url = "https://api.openaire.eu/search/projects?keywords=computer%20science&format=json&size=20"
+    url = "https://api.openaire.eu/search/projects?keywords=computer%20science&format=json&size=50"
     try:
         response = requests.get(url, timeout=10)
         if response.status_code == 200:
@@ -338,7 +338,7 @@ def fetch_github_repos():
                     "link": link,
                     "source": "GitHub"
                 })
-                if len(matched_jobs) >= 10: break
+                if len(matched_jobs) >= 30: break
     except Exception as e:
         print(f"  [!] GitHub Error: {e}")
     return matched_jobs
@@ -346,7 +346,7 @@ def fetch_github_repos():
 def fetch_arxiv_papers():
     print("Fetching from ArXiv (Latest CS Papers)...")
     matched_jobs = []
-    url = "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=20"
+    url = "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=50"
     try:
         response = requests.get(url, timeout=10)
         if response.status_code == 200:
