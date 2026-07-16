@@ -1,0 +1,308 @@
+import requests
+import xml.etree.ElementTree as ET
+import time
+import json
+import os
+import subprocess
+from datetime import datetime
+
+# ==========================================
+# CONFIGURATION
+# ==========================================
+TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN_HERE"
+TELEGRAM_CHAT_ID = "YOUR_TELEGRAM_CHAT_ID_HERE"
+
+CHECK_INTERVAL_MINUTES = 30  # Auto trigger interval (in minutes)
+DB_FILE = "jobs_database.json"
+
+KEYWORDS = [
+    "flutter", "dart", "machine learning", "deep learning", "computer vision", 
+    "vlsi", "risc-v", "fpga", "python developer",
+    "research", "funding", "grant", "fellowship", "scholarship",
+    "বৃত্তি", "ফেলোশিপ", "অনুদান", "গবেষণা", "আবেদন", "প্রশিক্ষণ"
+]
+
+EXCLUDE_WORDS = [
+    "senior", "staff", "principal", "lead", "manager", "director"
+]
+
+def load_db():
+    """Loads the database of already found opportunities."""
+    if os.path.exists(DB_FILE):
+        with open(DB_FILE, 'r') as f:
+            return json.load(f)
+    return {}
+
+def save_db(db):
+    """Saves the database to keep track of active jobs."""
+    with open(DB_FILE, 'w') as f:
+        json.dump(db, f, indent=4)
+
+def push_to_github():
+    """Automatically pushes the updated database to GitHub so the live dashboard stays up to date."""
+    print("Pushing updated database to GitHub Pages...")
+    try:
+        # Add only the database file
+        subprocess.run(["git", "add", DB_FILE], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        
+        # Commit the changes (this will return non-zero if nothing to commit, so check=False)
+        result = subprocess.run(["git", "commit", "-m", "Auto-update: New opportunities found/closed"], 
+                                stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        
+        # If commit was successful, push it
+        if result.returncode == 0:
+            subprocess.run(["git", "push", "origin", "main"], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            print("✅ Successfully updated live dashboard on GitHub!")
+        else:
+            print("No changes to push to GitHub.")
+    except Exception as e:
+        print(f"⚠️ Failed to push to GitHub: {e}")
+
+def send_telegram_alert(message):
+    if TELEGRAM_BOT_TOKEN == "YOUR_TELEGRAM_BOT_TOKEN_HERE":
+        print("[Telegram Alert Skipped] Token not set.")
+        return
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": message,
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True
+    }
+    try:
+        requests.post(url, json=payload)
+    except Exception:
+        pass
+
+def is_good_fit(title):
+    title_lower = title.lower()
+    if any(ex in title_lower for ex in EXCLUDE_WORDS):
+        return False
+    return True
+
+def fetch_rss_feed(url, source_name):
+    matched_jobs = []
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code == 200:
+            root = ET.fromstring(response.content)
+            for item in root.findall('.//item')[:50]:
+                title = item.find('title').text or ""
+                desc = item.find('description').text or ""
+                link = item.find('link').text or ""
+                if not is_good_fit(title):
+                    continue
+                if any(kw in title.lower() or kw in desc.lower() for kw in KEYWORDS):
+                    matched_jobs.append({"title": title.strip(), "company": "Client", "link": link, "source": source_name})
+    except Exception:
+        pass
+    return matched_jobs
+
+def fetch_bd_govt_jobs():
+    print("Fetching from BD Government (ICT/BCC)...")
+    matched_jobs = []
+    
+    from bs4 import BeautifulSoup
+    import urllib3
+    urllib3.disable_warnings()
+
+    urls = [
+        ("https://ictd.gov.bd/site/view/notices", "ICT Division BD"),
+        ("http://www.bcc.gov.bd/site/view/notices", "BCC BD")
+    ]
+    
+    for url, source_name in urls:
+        try:
+            response = requests.get(url, verify=False, timeout=10)
+            if response.status_code == 200:
+                soup = BeautifulSoup(response.text, "html.parser")
+                table = soup.find("table")
+                if table:
+                    rows = table.find_all("tr")[1:15]
+                    for r in rows:
+                        cols = r.find_all("td")
+                        if len(cols) >= 3:
+                            title = cols[2].text.strip()
+                            link_tag = cols[2].find('a')
+                            link = link_tag['href'] if link_tag else url
+                            
+                            # Construct full URL if relative
+                            if link.startswith('/'):
+                                base = "https://ictd.gov.bd" if "ictd" in url else "http://www.bcc.gov.bd"
+                                link = base + link
+                                
+                            if any(kw in title.lower() for kw in KEYWORDS):
+                                matched_jobs.append({"title": title, "company": "Govt of Bangladesh", "link": link, "source": source_name})
+        except Exception as e:
+            print(f"  [!] Could not fetch {source_name}: {e}")
+            
+    return matched_jobs
+
+def fetch_professors():
+    print("Searching for Professors/Labs (CV/DL/LLM) via EuropePMC...")
+    matched_jobs = []
+    import re
+    
+    # Query EuropePMC for latest papers in these fields
+    # It indexes many CS papers and includes verified author emails!
+    query = '("computer vision" OR "deep learning" OR "llm" OR "vlm" OR "vlsi" OR "machine learning")'
+    url = f"https://www.ebi.ac.uk/europepmc/webservices/rest/search?query={query}&format=json&resultType=core&pageSize=50&sort_date:y"
+    
+    try:
+        response = requests.get(url, timeout=15)
+        if response.status_code == 200:
+            data = response.json()
+            for result in data.get("resultList", {}).get("result", []):
+                paper_title = result.get("title", "")
+                paper_link = f"https://europepmc.org/article/MED/{result.get('pmid', '')}"
+                
+                for author in result.get("authorList", {}).get("author", []):
+                    if "authorAffiliationDetailsList" in author:
+                        for aff in author["authorAffiliationDetailsList"]["authorAffiliation"]:
+                            aff_str = aff.get("affiliation", "")
+                            # Extract email if present
+                            emails = re.findall(r'[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}', aff_str)
+                            if emails:
+                                email = emails[0]
+                                # Clean affiliation name
+                                uni_name = aff_str.split('.')[0] if '.' in aff_str else "University / Lab"
+                                prof_name = f"{author.get('firstName', '')} {author.get('lastName', '')}".strip()
+                                
+                                # Avoid adding the exact same email twice
+                                if not any(j['company'] == f"Email: {email}" for j in matched_jobs):
+                                    matched_jobs.append({
+                                        "title": f"Prof. {prof_name} ({uni_name[:40]}...)",
+                                        "company": f"Email: {email}",
+                                        "link": paper_link,
+                                        "source": "Professors"
+                                    })
+                                    
+                if len(matched_jobs) >= 20: # Cap at 20 per run so it doesn't flood everything at once
+                    break
+    except Exception as e:
+        print(f"  [!] Could not search Professors API: {e}")
+        
+    return matched_jobs
+
+def fetch_weworkremotely_jobs():
+    print("Fetching from WeWorkRemotely (RSS)...")
+    # Using our custom RSS parser since JSON API returns 404
+    return fetch_rss_feed("https://weworkremotely.com/remote-jobs.rss", "WeWorkRemotely")
+
+def fetch_remotive_jobs():
+    matched_jobs = []
+    search_terms = ["flutter", "machine learning", "python"]
+    try:
+        for term in search_terms:
+            response = requests.get(f"https://remotive.com/api/remote-jobs?search={term}", timeout=10)
+            if response.status_code == 200:
+                for job in response.json().get('jobs', []):
+                    title = job['title']
+                    if not is_good_fit(title):
+                        continue
+                    matched_jobs.append({"title": title, "company": job['company_name'], "link": job['url'], "source": "Remotive"})
+    except Exception:
+        pass
+    return matched_jobs
+
+def check_if_closed(url):
+    """Visits the job URL to see if it gives a 404 or says 'closed'."""
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, headers=headers, timeout=10)
+        
+        # If the page doesn't exist anymore, the job is gone
+        if response.status_code == 404:
+            return True
+            
+        # Check the HTML text for common phrases
+        text = response.text.lower()
+        closed_phrases = [
+            "this job is no longer available",
+            "this position has been closed",
+            "this posting is closed",
+            "no longer accepting applications"
+        ]
+        if any(phrase in text for phrase in closed_phrases):
+            return True
+            
+    except Exception:
+        pass
+    return False
+
+def check_existing_jobs(db):
+    """Checks previously found jobs to see if they are closed."""
+    print("Checking if any older opportunities have closed...")
+    closed_jobs = []
+    
+    for link, job_data in list(db.items()):
+        # Check if closed
+        if check_if_closed(link):
+            closed_jobs.append(job_data)
+            del db[link] # Remove from active list
+            
+            # Alert user that this opportunity is gone
+            msg = f"❌ <b>Opportunity Closed:</b> {job_data['title']}\nThis job is no longer available!"
+            print(msg.replace("<b>", "").replace("</b>", ""))
+            send_telegram_alert(msg)
+            time.sleep(1)
+            
+    if closed_jobs:
+        save_db(db)
+        push_to_github()
+
+def main():
+    print(f"\n[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Auto-Trigger Started. It will check for jobs every {CHECK_INTERVAL_MINUTES} minutes.")
+    
+    while True:
+        print(f"\n--- Running Job Search: {datetime.now().strftime('%H:%M:%S')} ---")
+        db = load_db()
+        
+        # 1. First, check if any old jobs have closed
+        if db:
+            check_existing_jobs(db)
+            
+        # 2. Search for new jobs
+        print("Looking for new opportunities...")
+        all_jobs = []
+        
+        all_jobs.extend(fetch_weworkremotely_jobs())
+        all_jobs.extend(fetch_bd_govt_jobs())
+        all_jobs.extend(fetch_remotive_jobs())
+        all_jobs.extend(fetch_professors())
+        
+        # 3. Process the new jobs
+        new_jobs_found = 0
+        for job in all_jobs:
+            link = job['link']
+            # If we haven't seen this job before
+            if link not in db:
+                db[link] = job
+                new_jobs_found += 1
+                
+                msg = (
+                    f"🚀 <b>NEW OPPORTUNITY</b>\n"
+                    f"💼 <b>{job['title']}</b>\n"
+                    f"🏢 <b>Client/Company:</b> {job['company']}\n"
+                    f"🌐 <b>Source:</b> {job['source']}\n"
+                    f"🔗 <b>Link:</b> {job['link']}\n"
+                )
+                print(msg.replace("<b>", "").replace("</b>", ""))
+                send_telegram_alert(msg)
+                time.sleep(1) # Prevent spamming Telegram API
+                
+        
+        if new_jobs_found == 0:
+            print("No new jobs found this round.")
+        else:
+            save_db(db)
+            print(f"Found and saved {new_jobs_found} new jobs!")
+            push_to_github() # Update live dashboard
+            
+        # 4. Wait for the next interval (Auto Trigger)
+        print(f"Waiting for {CHECK_INTERVAL_MINUTES} minutes until the next scan...")
+        time.sleep(CHECK_INTERVAL_MINUTES * 60)
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Opportunity Finder | Mosharrof Hossain</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <h1>Opportunity Finder 🚀</h1>
+                <p>Curated Freelance & Remote Projects for Solo Developers</p>
+            </div>
+            <div class="header-right">
+                <div class="stats-card">
+                    <span id="activeCount" class="stat-number">0</span>
+                    <span class="stat-label">Active Jobs</span>
+                </div>
+                <button id="refreshBtn" class="primary-btn">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-9-9c2.52 0 4.93 1 6.74 2.74L21 8"/><path d="M21 3v5h-5"/></svg>
+                    Refresh
+                </button>
+            </div>
+        </header>
+
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all">All Jobs</button>
+            <button class="filter-btn" data-filter="Remotive">Remotive</button>
+            <button class="filter-btn" data-filter="WeWorkRemotely">WeWorkRemotely</button>
+            <button class="filter-btn" data-filter="BD Govt">Bangladesh Govt</button>
+            <button class="filter-btn" data-filter="Professors">Professors</button>
+        </div>
+
+        <main id="job-board" class="job-grid">
+            <!-- Jobs will be injected here via JavaScript -->
+            <div class="loader-container">
+                <div class="spinner"></div>
+                <p>Loading your opportunities...</p>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
