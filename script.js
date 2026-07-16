@@ -1,20 +1,23 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const jobBoard = document.getElementById('job-board');
+    const loader = document.getElementById('loader');
+    const contentArea = document.getElementById('content-area');
     const activeCount = document.getElementById('activeCount');
-    const filterBtns = document.querySelectorAll('.filter-btn');
     const refreshBtn = document.getElementById('refreshBtn');
+    
+    const grids = {
+        jobs: document.getElementById('jobs-grid'),
+        funding: document.getElementById('funding-grid'),
+        professors: document.getElementById('professors-grid'),
+        papers: document.getElementById('papers-grid')
+    };
 
     let allJobs = [];
 
     // Fetch and render jobs
     async function loadJobs() {
         try {
-            jobBoard.innerHTML = `
-                <div class="loader-container">
-                    <div class="spinner"></div>
-                    <p>Loading opportunities...</p>
-                </div>
-            `;
+            loader.style.display = 'flex';
+            contentArea.style.display = 'none';
             
             // Add cache-busting to always get the latest json
             const response = await fetch('jobs_database.json?t=' + new Date().getTime());
@@ -30,11 +33,13 @@ document.addEventListener('DOMContentLoaded', () => {
             // Sort jobs, assuming newer ones are added later (we can just reverse to show latest first)
             allJobs.reverse();
 
-            renderJobs('all');
+            renderJobs();
+            loader.style.display = 'none';
+            contentArea.style.display = 'block';
         } catch (error) {
             console.error(error);
-            jobBoard.innerHTML = `
-                <div style="grid-column: 1 / -1; text-align: center; padding: 3rem; color: #ef4444;">
+            loader.innerHTML = `
+                <div style="text-align: center; padding: 3rem; color: #ef4444;">
                     <h3>⚠️ Error Loading Data</h3>
                     <p>${error.message}</p>
                     <p style="margin-top: 1rem; font-size: 0.9rem; color: #94a3b8;">
@@ -46,32 +51,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    function renderJobs(filter) {
-        jobBoard.innerHTML = '';
-        
-        let filteredJobs = allJobs;
-        if (filter !== 'all') {
-            filteredJobs = allJobs.filter(job => {
-                let src = job.source.toLowerCase();
-                let f = filter.toLowerCase();
-                if (f === 'bd govt' && (src.includes('ict') || src.includes('bcc') || src.includes('govt'))) return true;
-                return src.includes(f);
-            });
-        }
+    function renderJobs() {
+        Object.values(grids).forEach(grid => grid.innerHTML = '');
+        activeCount.textContent = allJobs.length;
 
-        activeCount.textContent = filteredJobs.length;
-
-        if (filteredJobs.length === 0) {
-            jobBoard.innerHTML = `
-                <div style="grid-column: 1 / -1; text-align: center; padding: 3rem; color: #94a3b8;">
-                    <h3>No opportunities found for this filter.</h3>
-                    <p>Check back later!</p>
-                </div>
-            `;
-            return;
-        }
-
-        filteredJobs.forEach((job, index) => {
+        allJobs.forEach((job, index) => {
             const card = document.createElement('div');
             card.className = 'job-card';
             card.style.animation = `float 0.5s ease forwards ${index * 0.05}s`;
@@ -93,10 +77,16 @@ document.addEventListener('DOMContentLoaded', () => {
 
             let tagClass = 'source-default';
             let sourceName = job.source.toLowerCase();
-            if (sourceName.includes('bd') || sourceName.includes('govt')) tagClass = 'source-reddit'; // Reuse red/orange styling
-            else if (sourceName.includes('professors')) tagClass = 'source-reddit'; // Reuse red/orange styling
+            if (sourceName.includes('bd') || sourceName.includes('govt')) tagClass = 'source-reddit';
+            else if (sourceName.includes('professors')) tagClass = 'source-reddit';
             else if (sourceName.includes('remotive')) tagClass = 'source-remotive';
             else if (sourceName.includes('weworkremotely')) tagClass = 'source-weworkremotely';
+            else if (sourceName.includes('nsf')) tagClass = 'source-nsf';
+            else if (sourceName.includes('ukri')) tagClass = 'source-ukri';
+            else if (sourceName.includes('openaire')) tagClass = 'source-openaire';
+            else if (sourceName.includes('openalex')) tagClass = 'source-openalex';
+            else if (sourceName.includes('github')) tagClass = 'source-github';
+            else if (sourceName.includes('arxiv')) tagClass = 'source-arxiv';
 
             let cardContent = '';
             
@@ -136,19 +126,28 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             
             card.innerHTML = cardContent;
-            jobBoard.appendChild(card);
+            
+            // Distribute into categories
+            if (sourceName.includes('professors')) {
+                grids.professors.appendChild(card);
+            } else if (sourceName.includes('arxiv')) {
+                grids.papers.appendChild(card);
+            } else if (sourceName.includes('remotive') || sourceName.includes('wework') || sourceName.includes('bd') || sourceName.includes('govt')) {
+                grids.jobs.appendChild(card);
+            } else {
+                grids.funding.appendChild(card);
+            }
+        });
+        
+        // Handle empty grids
+        Object.values(grids).forEach(grid => {
+            if (grid.children.length === 0) {
+                grid.innerHTML = `<div style="grid-column: 1 / -1; text-align: center; color: #94a3b8; padding: 2rem;">No data available right now.</div>`;
+            }
         });
     }
 
     // Event Listeners
-    filterBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            filterBtns.forEach(b => b.classList.remove('active'));
-            e.target.classList.add('active');
-            renderJobs(e.target.getAttribute('data-filter'));
-        });
-    });
-
     refreshBtn.addEventListener('click', () => {
         // Rotate icon for feedback
         const svg = refreshBtn.querySelector('svg');

@@ -206,6 +206,168 @@ def fetch_remotive_jobs():
         pass
     return matched_jobs
 
+def fetch_nsf_awards():
+    print("Fetching from NSF Awards (USA)...")
+    matched_jobs = []
+    url = "https://api.nsf.gov/services/v1/awards.json?keyword=computer+science"
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            for award in data.get('response', {}).get('award', []):
+                title = award.get('title', '')
+                pi = award.get('piFirstName', '') + ' ' + award.get('piLastName', '')
+                inst = award.get('awardeeName', '')
+                funds = award.get('fundsObligatedAmt', 'Unknown')
+                link = f"https://www.nsf.gov/awardsearch/showAward?AWD_ID={award.get('id', '')}"
+                
+                display_title = f"NSF Grant: {title} (PI: {pi})"
+                matched_jobs.append({
+                    "title": display_title[:100] + ("..." if len(display_title)>100 else ""),
+                    "company": f"{inst} (${funds})",
+                    "link": link,
+                    "source": "NSF USA"
+                })
+                if len(matched_jobs) >= 20: break
+    except Exception as e:
+        print(f"  [!] NSF Error: {e}")
+    return matched_jobs
+
+def fetch_ukri_projects():
+    print("Fetching from UKRI (UK)...")
+    matched_jobs = []
+    url = "https://gtr.ukri.org/gtr/api/projects?q=computer+science"
+    headers = {'Accept': 'application/json'}
+    try:
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            for proj in data.get('project', []):
+                title = proj.get('title', '')
+                funds = proj.get('fund', {}).get('valuePounds', 'Unknown')
+                link = proj.get('url', url)
+                
+                matched_jobs.append({
+                    "title": title[:100] + ("..." if len(title)>100 else ""),
+                    "company": f"UKRI Grant (£{funds})",
+                    "link": link,
+                    "source": "UKRI"
+                })
+                if len(matched_jobs) >= 20: break
+    except Exception as e:
+        print(f"  [!] UKRI Error: {e}")
+    return matched_jobs
+
+def fetch_openalex_funders():
+    print("Fetching from OpenAlex (Global)...")
+    matched_jobs = []
+    url = "https://api.openalex.org/funders?search=computer"
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            for funder in data.get('results', []):
+                title = funder.get('display_name', '')
+                desc = funder.get('description', '') or ''
+                link = funder.get('homepage_url') or funder.get('id', url)
+                country = funder.get('country_code', 'Global')
+                
+                matched_jobs.append({
+                    "title": f"Funder: {title}",
+                    "company": f"{country} - {desc[:50]}...",
+                    "link": link,
+                    "source": "OpenAlex"
+                })
+                if len(matched_jobs) >= 20: break
+    except Exception as e:
+        print(f"  [!] OpenAlex Error: {e}")
+    return matched_jobs
+
+def fetch_openaire_projects():
+    print("Fetching from OpenAIRE (Europe)...")
+    matched_jobs = []
+    url = "https://api.openaire.eu/search/projects?keywords=computer%20science&format=json&size=20"
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            results = data.get('response', {}).get('results', {}).get('result', [])
+            for res in results:
+                metadata = res.get('metadata', {}).get('oaf:entity', {}).get('oaf:project', {})
+                title = metadata.get('title', '')
+                if isinstance(title, dict):
+                    title = title.get('$', '')
+                link = metadata.get('websiteurl', '')
+                if isinstance(link, dict):
+                    link = link.get('$', '')
+                if not link:
+                    link = "https://explore.openaire.eu/"
+                
+                funder = metadata.get('fundingtree', {}).get('funder', {}).get('shortname', 'EU Funder')
+                if isinstance(funder, dict):
+                    funder = funder.get('$', 'EU Funder')
+                    
+                if title:
+                    matched_jobs.append({
+                        "title": str(title)[:100],
+                        "company": str(funder),
+                        "link": str(link),
+                        "source": "OpenAIRE"
+                    })
+    except Exception as e:
+        print(f"  [!] OpenAIRE Error: {e}")
+    return matched_jobs
+
+def fetch_github_repos():
+    print("Fetching from GitHub (Scholarship Repos)...")
+    matched_jobs = []
+    url = "https://api.github.com/search/repositories?q=phd+positions+computer+science&sort=updated"
+    try:
+        headers = {'User-Agent': 'Mozilla/5.0'}
+        response = requests.get(url, headers=headers, timeout=10)
+        if response.status_code == 200:
+            data = response.json()
+            for repo in data.get('items', []):
+                title = repo.get('name', '')
+                desc = repo.get('description', '') or 'CS PhD Positions'
+                link = repo.get('html_url', '')
+                
+                matched_jobs.append({
+                    "title": f"Repo: {title}",
+                    "company": desc[:60] + "...",
+                    "link": link,
+                    "source": "GitHub"
+                })
+                if len(matched_jobs) >= 10: break
+    except Exception as e:
+        print(f"  [!] GitHub Error: {e}")
+    return matched_jobs
+
+def fetch_arxiv_papers():
+    print("Fetching from ArXiv (Latest CS Papers)...")
+    matched_jobs = []
+    url = "http://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=20"
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            root = ET.fromstring(response.content)
+            ns = {'atom': 'http://www.w3.org/2005/Atom'}
+            for entry in root.findall('atom:entry', ns):
+                title = entry.find('atom:title', ns).text.strip()
+                authors = [a.find('atom:name', ns).text for a in entry.findall('atom:author', ns)]
+                link = entry.find('atom:id', ns).text
+                
+                prof_str = authors[-1] if authors else "Unknown" # Usually last author is PI
+                matched_jobs.append({
+                    "title": f"Paper: {title[:70]}...",
+                    "company": f"PI/Author: {prof_str}",
+                    "link": link,
+                    "source": "ArXiv Papers"
+                })
+    except Exception as e:
+        print(f"  [!] ArXiv Error: {e}")
+    return matched_jobs
+
 def check_if_closed(url):
     """Visits the job URL to see if it gives a 404 or says 'closed'."""
     try:
@@ -272,6 +434,14 @@ def main():
         all_jobs.extend(fetch_remotive_jobs())
         all_jobs.extend(fetch_professors())
         
+        # New API Integrations
+        all_jobs.extend(fetch_nsf_awards())
+        all_jobs.extend(fetch_ukri_projects())
+        all_jobs.extend(fetch_openalex_funders())
+        all_jobs.extend(fetch_openaire_projects())
+        all_jobs.extend(fetch_github_repos())
+        all_jobs.extend(fetch_arxiv_papers())
+        
         # 3. Process the new jobs
         new_jobs_found = 0
         for job in all_jobs:
@@ -299,6 +469,10 @@ def main():
             save_db(db)
             print(f"Found and saved {new_jobs_found} new jobs!")
             push_to_github() # Update live dashboard
+            
+        if os.environ.get("GITHUB_ACTIONS") == "true":
+            print("Running in GitHub Actions - exiting after one iteration.")
+            break
             
         # 4. Wait for the next interval (Auto Trigger)
         print(f"Waiting for {CHECK_INTERVAL_MINUTES} minutes until the next scan...")

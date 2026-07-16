@@ -26,19 +26,32 @@
             </div>
         </header>
 
-        <div class="filters">
-            <button class="filter-btn active" data-filter="all">All Jobs</button>
-            <button class="filter-btn" data-filter="Remotive">Remotive</button>
-            <button class="filter-btn" data-filter="WeWorkRemotely">WeWorkRemotely</button>
-            <button class="filter-btn" data-filter="BD Govt">Bangladesh Govt</button>
-            <button class="filter-btn" data-filter="Professors">Professors</button>
-        </div>
-
-        <main id="job-board" class="job-grid">
-            <!-- Jobs will be injected here via JavaScript -->
-            <div class="loader-container">
+        <main>
+            <div id="loader" class="loader-container">
                 <div class="spinner"></div>
                 <p>Loading your opportunities...</p>
+            </div>
+            
+            <div id="content-area" style="display: none;">
+                <section class="category-section">
+                    <h2 class="section-title">💼 Jobs & Internships</h2>
+                    <div id="jobs-grid" class="job-grid"></div>
+                </section>
+                
+                <section class="category-section">
+                    <h2 class="section-title">🎓 Scholarships & Research Funding</h2>
+                    <div id="funding-grid" class="job-grid"></div>
+                </section>
+
+                <section class="category-section">
+                    <h2 class="section-title">🔬 Professors & Lab Leads (Emails)</h2>
+                    <div id="professors-grid" class="job-grid"></div>
+                </section>
+                
+                <section class="category-section">
+                    <h2 class="section-title">📄 Latest Research Papers</h2>
+                    <div id="papers-grid" class="job-grid"></div>
+                </section>
             </div>
         </main>
     </div>
