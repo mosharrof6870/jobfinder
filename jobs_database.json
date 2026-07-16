@@ -59,18 +59,6 @@
         "link": "https://remotive.com/remote-jobs/software-development/frontend-developer-2090991",
         "source": "Remotive"
     },
-    "https://remotive.com/remote-jobs/software-development/head-of-engineering-2090983": {
-        "title": "Head of Engineering",
-        "company": "Lemon.io",
-        "link": "https://remotive.com/remote-jobs/software-development/head-of-engineering-2090983",
-        "source": "Remotive"
-    },
-    "https://remotive.com/remote-jobs/all-others/quality-assurance-rater-german-germany-2090988": {
-        "title": "Quality Assurance Rater - German (Germany)",
-        "company": "TELUS Digital",
-        "link": "https://remotive.com/remote-jobs/all-others/quality-assurance-rater-german-germany-2090988",
-        "source": "Remotive"
-    },
     "https://weworkremotely.com/remote-jobs/icf-software-security-engineer-cloud-govcloud-top-secret-cleared": {
         "title": "ICF: Software Security Engineer- Cloud/GovCloud (Top Secret cleared)",
         "company": "Client",
@@ -635,18 +623,6 @@
         "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2541536",
         "source": "NSF USA"
     },
-    "http://www.nsf.gov/div/index.jsp?div=CNS": {
-        "title": "Funder: Division of Computer and Network Systems",
-        "company": "US - government organization in Arlington, United State...",
-        "link": "http://www.nsf.gov/div/index.jsp?div=CNS",
-        "source": "OpenAlex"
-    },
-    "http://www.ccf.org.cn/sites/ccf": {
-        "title": "Funder: China Computer Federation",
-        "company": "CN - computer science organization in Beijing, China...",
-        "link": "http://www.ccf.org.cn/sites/ccf",
-        "source": "OpenAlex"
-    },
     "https://www.umiacs.umd.edu": {
         "title": "Funder: Institute for Advanced Computer Studies, University of Maryland",
         "company": "US - research institute at the University of Maryland...",
@@ -856,5 +832,29 @@
         "company": "PI/Author: Ting Yuan",
         "link": "http://arxiv.org/abs/2607.13573v1",
         "source": "ArXiv Papers"
+    },
+    "https://weworkremotely.com/remote-jobs/castr-sales-development-representative-sdr": {
+        "title": "Castr: Sales Development Representative (SDR)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/castr-sales-development-representative-sdr",
+        "source": "WeWorkRemotely"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2551964": {
+        "title": "NSF Grant: Collaborative Research: CER: From Classroom to Career Readiness: Enhancing Undergraduate ...",
+        "company": "University of Hawaii ($214246)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2551964",
+        "source": "NSF USA"
+    },
+    "http://www.nsf.gov/div/index.jsp?div=CNS": {
+        "title": "Funder: Division of Computer and Network Systems",
+        "company": "US - government organization in Arlington, United State...",
+        "link": "http://www.nsf.gov/div/index.jsp?div=CNS",
+        "source": "OpenAlex"
+    },
+    "http://www.ccf.org.cn/sites/ccf": {
+        "title": "Funder: China Computer Federation",
+        "company": "CN - computer science organization in Beijing, China...",
+        "link": "http://www.ccf.org.cn/sites/ccf",
+        "source": "OpenAlex"
     }
 }
