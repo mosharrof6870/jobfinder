@@ -845,6 +845,42 @@
         "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2551964",
         "source": "NSF USA"
     },
+    "https://weworkremotely.com/remote-jobs/steady-vision-web-designer": {
+        "title": "Steady Vision: Web Designer",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/steady-vision-web-designer",
+        "source": "WeWorkRemotely"
+    },
+    "https://weworkremotely.com/remote-jobs/work-and-study-travel-website-builder-wordpress-specialist": {
+        "title": "Work and Study Travel: Website Builder / WordPress Specialist",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/work-and-study-travel-website-builder-wordpress-specialist",
+        "source": "WeWorkRemotely"
+    },
+    "https://weworkremotely.com/remote-jobs/snapscale-wp-dev-remote": {
+        "title": "Snapscale: WP dev (remote)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/snapscale-wp-dev-remote",
+        "source": "WeWorkRemotely"
+    },
+    "https://weworkremotely.com/remote-jobs/wingman-group-pty-crm-administrator-technical-support-night-shift": {
+        "title": "Wingman Group PTY: CRM Administrator & Technical Support (Night Shift)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/wingman-group-pty-crm-administrator-technical-support-night-shift",
+        "source": "WeWorkRemotely"
+    },
+    "https://weworkremotely.com/remote-jobs/education-sub-saharan-africa-consultancy-design-and-implementation-of-acsl-impact-studies": {
+        "title": "Education Sub Saharan Africa: Consultancy: Design and Implementation of ACSL Impact Studies",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/education-sub-saharan-africa-consultancy-design-and-implementation-of-acsl-impact-studies",
+        "source": "WeWorkRemotely"
+    },
+    "https://weworkremotely.com/remote-jobs/anthropic-safeguards-enforcement-analyst-age-appropriate-design": {
+        "title": "Anthropic: Safeguards Enforcement Analyst, Age-Appropriate Design",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/anthropic-safeguards-enforcement-analyst-age-appropriate-design",
+        "source": "WeWorkRemotely"
+    },
     "http://www.nsf.gov/div/index.jsp?div=CNS": {
         "title": "Funder: Division of Computer and Network Systems",
         "company": "US - government organization in Arlington, United State...",
@@ -856,5 +892,305 @@
         "company": "CN - computer science organization in Beijing, China...",
         "link": "http://www.ccf.org.cn/sites/ccf",
         "source": "OpenAlex"
+    },
+    "http://arxiv.org/abs/2607.15275v1": {
+        "title": "Paper: RoboTTT: Context Scaling for Robot Policies...",
+        "company": "PI/Author: Linxi \"Jim\" Fan",
+        "link": "http://arxiv.org/abs/2607.15275v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15272v1": {
+        "title": "Paper: SciDiagramEdit: Learning to Edit Scientific Diagrams from Paper Revisi...",
+        "company": "PI/Author: J\u00fcrgen Schmidhuber",
+        "link": "http://arxiv.org/abs/2607.15272v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15267v1": {
+        "title": "Paper: Pretraining Data Can Be Poisoned through Computational Propaganda...",
+        "company": "PI/Author: Kyle Lo",
+        "link": "http://arxiv.org/abs/2607.15267v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15265v1": {
+        "title": "Paper: SceneBind: Binding What and Where Across Vision, Audio and Language...",
+        "company": "PI/Author: Eli Shlizerman",
+        "link": "http://arxiv.org/abs/2607.15265v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15263v1": {
+        "title": "Paper: Beyond Success Rate: Cost-Aware Evaluation of Offensive and Defensive ...",
+        "company": "PI/Author: Yaron Singer",
+        "link": "http://arxiv.org/abs/2607.15263v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15257v1": {
+        "title": "Paper: SearchOS-V1: Towards Robust Open-Domain Information-Seeking Agent Coll...",
+        "company": "PI/Author: Zhicheng Dou",
+        "link": "http://arxiv.org/abs/2607.15257v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15254v1": {
+        "title": "Paper: teLLMe Why (Ain't Nothing but a Jam): Exploratory Causal Analysis of U...",
+        "company": "PI/Author: Jorge Ortiz",
+        "link": "http://arxiv.org/abs/2607.15254v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15247v1": {
+        "title": "Paper: AutoSynthesis: An agentic system for automated meta-analysis...",
+        "company": "PI/Author: Stefan Feuerriegel",
+        "link": "http://arxiv.org/abs/2607.15247v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15232v1": {
+        "title": "Paper: In-Place Tokenizer Expansion for Pre-trained LLMs...",
+        "company": "PI/Author: Mathias Lechner",
+        "link": "http://arxiv.org/abs/2607.15232v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15218v1": {
+        "title": "Paper: When Words Are Safe But Actions Kill: Probing Physical Danger Beyond T...",
+        "company": "PI/Author: Ke Xu",
+        "link": "http://arxiv.org/abs/2607.15218v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15216v1": {
+        "title": "Paper: Symbal: Detecting Systematic Misalignments in Model-Generated Captions...",
+        "company": "PI/Author: Curtis Langlotz",
+        "link": "http://arxiv.org/abs/2607.15216v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15205v1": {
+        "title": "Paper: MM-IssueLoc: A Controlled Benchmark for Evaluating Visual Evidence in ...",
+        "company": "PI/Author: Hai-Tao Zheng",
+        "link": "http://arxiv.org/abs/2607.15205v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15202v1": {
+        "title": "Paper: Self-Evolving Human-Centered Framework for Explainable Depression Symp...",
+        "company": "PI/Author: Hung Cao",
+        "link": "http://arxiv.org/abs/2607.15202v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15200v1": {
+        "title": "Paper: Mask-Aware Policy Gradients for Diffusion Language Models...",
+        "company": "PI/Author: Philipp Kr\u00e4henb\u00fchl",
+        "link": "http://arxiv.org/abs/2607.15200v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15196v1": {
+        "title": "Paper: Subjective Risk Decomposition: A New View for Uncertainty Quantificati...",
+        "company": "PI/Author: Gavin Brown",
+        "link": "http://arxiv.org/abs/2607.15196v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15193v1": {
+        "title": "Paper: Plover: Steering GUI Agents through Plan-Centric Interaction...",
+        "company": "PI/Author: Dongyu Liu",
+        "link": "http://arxiv.org/abs/2607.15193v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15190v1": {
+        "title": "Paper: Can We Trust Item Response Theory for AI Evaluation?...",
+        "company": "PI/Author: Susu Zhang",
+        "link": "http://arxiv.org/abs/2607.15190v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15178v1": {
+        "title": "Paper: T^2MLR: Transformer with Temporal Middle-Layer Recurrence...",
+        "company": "PI/Author: Sanjeev Arora",
+        "link": "http://arxiv.org/abs/2607.15178v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15176v1": {
+        "title": "Paper: Benchmarking Multimodal Large Language Models for Scientific Visualiza...",
+        "company": "PI/Author: Chaoli Wang",
+        "link": "http://arxiv.org/abs/2607.15176v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15166v1": {
+        "title": "Paper: MedFailBench: A Clinician-Built Open-Source Benchmark for Medical AI S...",
+        "company": "PI/Author: Goktug Ozkan",
+        "link": "http://arxiv.org/abs/2607.15166v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15164v1": {
+        "title": "Paper: The Industrialization of Research ; On AI-Driven Science and Its Conse...",
+        "company": "PI/Author: Emmanuel Jeannot",
+        "link": "http://arxiv.org/abs/2607.15164v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15163v1": {
+        "title": "Paper: Scaling Behavior Foundation Model for Humanoid Robots...",
+        "company": "PI/Author: Jingbo Wang",
+        "link": "http://arxiv.org/abs/2607.15163v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15142v1": {
+        "title": "Paper: Concept-Guided Spatial Regularization for World Models in Atari Pong...",
+        "company": "PI/Author: Yubei Chen",
+        "link": "http://arxiv.org/abs/2607.15142v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15123v1": {
+        "title": "Paper: NIFA: Nonlinear IMC enhanced FPGA for efficient ML inference...",
+        "company": "PI/Author: Aman Arora",
+        "link": "http://arxiv.org/abs/2607.15123v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15105v1": {
+        "title": "Paper: Long-Context Fine-Tuning with Limited VRAM...",
+        "company": "PI/Author: Frank Woernle",
+        "link": "http://arxiv.org/abs/2607.15105v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15095v1": {
+        "title": "Paper: Digital Pantheon: Simulating and Auditing Coalition Formation with LLM...",
+        "company": "PI/Author: Dirk Van den Poel",
+        "link": "http://arxiv.org/abs/2607.15095v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15082v1": {
+        "title": "Paper: Towards Hierarchical Structure Understanding of Newspaper Images...",
+        "company": "PI/Author: Thierry Paquet",
+        "link": "http://arxiv.org/abs/2607.15082v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15079v1": {
+        "title": "Paper: BrainPilot: Automating Brain Discovery with Agentic Research...",
+        "company": "PI/Author: Lu Mi",
+        "link": "http://arxiv.org/abs/2607.15079v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15053v1": {
+        "title": "Paper: ANet Patu-1: The Value of Connection in the Agent Network...",
+        "company": "PI/Author: Lan Zhang",
+        "link": "http://arxiv.org/abs/2607.15053v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15047v1": {
+        "title": "Paper: Parameter-efficient Prompt Tuning of Vision Foundation Model With Adap...",
+        "company": "PI/Author: Amirhossein Nikoofard",
+        "link": "http://arxiv.org/abs/2607.15047v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15027v1": {
+        "title": "Paper: Man, Machine, and Masterpiece: Artistic Ownership in the AI Era...",
+        "company": "PI/Author: Shadan Sadeghian",
+        "link": "http://arxiv.org/abs/2607.15027v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15006v1": {
+        "title": "Paper: When AI Blurs the Boundaries of Contribution: An Empirical Study of Au...",
+        "company": "PI/Author: Denis Lalanne",
+        "link": "http://arxiv.org/abs/2607.15006v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15003v1": {
+        "title": "Paper: SMC-ES: Automated synthesis of formally verified control policies...",
+        "company": "PI/Author: Enrico Tronci",
+        "link": "http://arxiv.org/abs/2607.15003v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.15001v1": {
+        "title": "Paper: LQCDMaster: Agentic Scientific Computing for Lattice Quantum Chromodyn...",
+        "company": "PI/Author: Wei Wang",
+        "link": "http://arxiv.org/abs/2607.15001v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14998v1": {
+        "title": "Paper: Moral Attitudes of Sentient ASI towards Humanity and Implications for ...",
+        "company": "PI/Author: Jean-Paul Van Belle",
+        "link": "http://arxiv.org/abs/2607.14998v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14989v1": {
+        "title": "Paper: OmniaBench: Benchmarking General AI Agents Across Diverse Scenarios...",
+        "company": "PI/Author: Wentao Zhang",
+        "link": "http://arxiv.org/abs/2607.14989v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14984v1": {
+        "title": "Paper: Demographically-Conditioned Synthetic Medical Images for Bias Mitigati...",
+        "company": "PI/Author: Michel Dumontier",
+        "link": "http://arxiv.org/abs/2607.14984v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14975v1": {
+        "title": "Paper: CFM-Bench: A Unified Multi-Domain, Multi-Task Benchmark for Channel Fo...",
+        "company": "PI/Author: Shugong Xu",
+        "link": "http://arxiv.org/abs/2607.14975v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14970v1": {
+        "title": "Paper: Explaining Process Control Optimisation Recommendations via GradientSH...",
+        "company": "PI/Author: Annalisa Riccardi",
+        "link": "http://arxiv.org/abs/2607.14970v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14967v1": {
+        "title": "Paper: Latent Trajectory Discrimination for AI-Generated Text Detection...",
+        "company": "PI/Author: Luca Virgili",
+        "link": "http://arxiv.org/abs/2607.14967v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14962v1": {
+        "title": "Paper: Multi-Axis Max@K Reinforcement Learning for Representative Diversity i...",
+        "company": "PI/Author: Yutaka Matsuo",
+        "link": "http://arxiv.org/abs/2607.14962v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14957v1": {
+        "title": "Paper: Contextualized Early Detection of Online Firestorms: A Sequential LLM-...",
+        "company": "PI/Author: Martin H\u00e4usl",
+        "link": "http://arxiv.org/abs/2607.14957v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14943v1": {
+        "title": "Paper: Steering Robustness into World Action Models via Mechanistic Interpret...",
+        "company": "PI/Author: Glen Chou",
+        "link": "http://arxiv.org/abs/2607.14943v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14937v1": {
+        "title": "Paper: A Minimal Interpretable Architecture for Zero-Shot Reconstruction of D...",
+        "company": "PI/Author: Daniel Durstewitz",
+        "link": "http://arxiv.org/abs/2607.14937v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14932v1": {
+        "title": "Paper: Benchmarking Face Recognition without Real Faces...",
+        "company": "PI/Author: Tegawend\u00e9 F. Bissyand\u00e9",
+        "link": "http://arxiv.org/abs/2607.14932v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14921v1": {
+        "title": "Paper: Random Logit Scaling: Defending Deep Neural Networks Against Black-Box...",
+        "company": "PI/Author: AmirMahdi Sadeghzadeh",
+        "link": "http://arxiv.org/abs/2607.14921v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14905v1": {
+        "title": "Paper: Show Me How You Reason and I'll Tell You Who You Are: Reasoning Graphs...",
+        "company": "PI/Author: Ramon Ruiz-Dolz",
+        "link": "http://arxiv.org/abs/2607.14905v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14898v1": {
+        "title": "Paper: FlashDecoder: Real-Time Latent-to-Pixel Streaming Decoder with Transfo...",
+        "company": "PI/Author: Suha Kwak",
+        "link": "http://arxiv.org/abs/2607.14898v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14896v1": {
+        "title": "Paper: StructureClaw: Traceable LLM Agents and an Executable Benchmark for St...",
+        "company": "PI/Author: Xinzheng Lu",
+        "link": "http://arxiv.org/abs/2607.14896v1",
+        "source": "ArXiv Papers"
+    },
+    "http://arxiv.org/abs/2607.14890v1": {
+        "title": "Paper: Proof-or-Stop: Don't Trust the Agent, Trust the Evidence -- Loop Engin...",
+        "company": "PI/Author: Ian H. White",
+        "link": "http://arxiv.org/abs/2607.14890v1",
+        "source": "ArXiv Papers"
     }
 }
