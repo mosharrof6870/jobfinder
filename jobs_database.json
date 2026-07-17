@@ -53,12 +53,6 @@
         "link": "https://remotive.com/remote-jobs/sales/sales-assistant-2091038",
         "source": "Remotive"
     },
-    "https://remotive.com/remote-jobs/software-development/frontend-developer-2090991": {
-        "title": "Frontend Developer",
-        "company": "Quinncia Inc",
-        "link": "https://remotive.com/remote-jobs/software-development/frontend-developer-2090991",
-        "source": "Remotive"
-    },
     "https://weworkremotely.com/remote-jobs/icf-software-security-engineer-cloud-govcloud-top-secret-cleared": {
         "title": "ICF: Software Security Engineer- Cloud/GovCloud (Top Secret cleared)",
         "company": "Client",
@@ -881,18 +875,6 @@
         "link": "https://weworkremotely.com/remote-jobs/anthropic-safeguards-enforcement-analyst-age-appropriate-design",
         "source": "WeWorkRemotely"
     },
-    "http://www.nsf.gov/div/index.jsp?div=CNS": {
-        "title": "Funder: Division of Computer and Network Systems",
-        "company": "US - government organization in Arlington, United State...",
-        "link": "http://www.nsf.gov/div/index.jsp?div=CNS",
-        "source": "OpenAlex"
-    },
-    "http://www.ccf.org.cn/sites/ccf": {
-        "title": "Funder: China Computer Federation",
-        "company": "CN - computer science organization in Beijing, China...",
-        "link": "http://www.ccf.org.cn/sites/ccf",
-        "source": "OpenAlex"
-    },
     "http://arxiv.org/abs/2607.15275v1": {
         "title": "Paper: RoboTTT: Context Scaling for Robot Policies...",
         "company": "PI/Author: Linxi \"Jim\" Fan",
@@ -1192,5 +1174,35 @@
         "company": "PI/Author: Ian H. White",
         "link": "http://arxiv.org/abs/2607.14890v1",
         "source": "ArXiv Papers"
+    },
+    "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068": {
+        "title": "Head of Marketing & Communications",
+        "company": "garden3d",
+        "link": "https://remotive.com/remote-jobs/marketing/head-of-marketing-communications-2091068",
+        "source": "Remotive"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2620734": {
+        "title": "NSF Grant: RUI: Enabling phylogenomic research on microbial eukaryotes with EukPhylo (PI: Laura Katz...",
+        "company": "Smith College ($736602)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2620734",
+        "source": "NSF USA"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2603660": {
+        "title": "NSF Grant: New Strategies for Accessible Anionic Polymerizations (PI: Brett Fors)",
+        "company": "Cornell University ($600000)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2603660",
+        "source": "NSF USA"
+    },
+    "http://www.nsf.gov/div/index.jsp?div=CNS": {
+        "title": "Funder: Division of Computer and Network Systems",
+        "company": "US - government organization in Arlington, United State...",
+        "link": "http://www.nsf.gov/div/index.jsp?div=CNS",
+        "source": "OpenAlex"
+    },
+    "http://www.ccf.org.cn/sites/ccf": {
+        "title": "Funder: China Computer Federation",
+        "company": "CN - computer science organization in Beijing, China...",
+        "link": "http://www.ccf.org.cn/sites/ccf",
+        "source": "OpenAlex"
     }
 }
