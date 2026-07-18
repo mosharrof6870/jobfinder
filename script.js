@@ -140,7 +140,17 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             // Also add a clone of the card to the Latest tab if it's one of the newest 40
             if (index < 40) {
-                grids.latest.appendChild(card.cloneNode(true));
+                const clonedCard = card.cloneNode(true);
+                clonedCard.animate([
+                    { opacity: 0, transform: 'translateY(20px)' },
+                    { opacity: 1, transform: 'translateY(0)' }
+                ], {
+                    duration: 500,
+                    delay: index * 50,
+                    fill: 'forwards',
+                    easing: 'ease-out'
+                });
+                grids.latest.appendChild(clonedCard);
             }
         });
         
