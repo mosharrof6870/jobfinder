@@ -4210,5 +4210,662 @@
         "created_date": "2026-07-23T21:38:32.156788",
         "last_checked": "2026-07-23T21:38:32.156788",
         "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21595v1": {
+        "title": "Paper: 3D-Aware VLMs with Implicit and Explicit Geometries...",
+        "company": "PI/Author: Gongjie Zhang",
+        "link": "http://arxiv.org/abs/2607.21595v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21580v1": {
+        "title": "Paper: GraphVid: Interactive Graph-Controllable Video Generation...",
+        "company": "PI/Author: Ismini Lourentzou",
+        "link": "http://arxiv.org/abs/2607.21580v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21579v1": {
+        "title": "Paper: Barzilai-Borwein Fails Superlinear Convergence on an Open Set of Quadr...",
+        "company": "PI/Author: Mingyi Hong",
+        "link": "http://arxiv.org/abs/2607.21579v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21577v1": {
+        "title": "Paper: Synthetic data generation framework for quality control automation in ...",
+        "company": "PI/Author: Andrea Trombin",
+        "link": "http://arxiv.org/abs/2607.21577v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21573v1": {
+        "title": "Paper: Beyond Sufficiency: Time Series Explanation with Counterfactual Necess...",
+        "company": "PI/Author: Weiru Liu",
+        "link": "http://arxiv.org/abs/2607.21573v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21559v1": {
+        "title": "Paper: Unsupervised Consensus-Based Anomaly Detection for Spatiotemporal Mala...",
+        "company": "PI/Author: Y. Asare Afrane",
+        "link": "http://arxiv.org/abs/2607.21559v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21558v1": {
+        "title": "Paper: Beyond Sycophancy: Structured Resistance and Compliance in LLM Moral R...",
+        "company": "PI/Author: Bernard Koch",
+        "link": "http://arxiv.org/abs/2607.21558v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21557v1": {
+        "title": "Paper: OpenForgeRL: Train Harness-native Agents in Any Environment...",
+        "company": "PI/Author: Jianfeng Gao",
+        "link": "http://arxiv.org/abs/2607.21557v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21556v1": {
+        "title": "Paper: Visual Contrastive Self-Distillation...",
+        "company": "PI/Author: Di Fu",
+        "link": "http://arxiv.org/abs/2607.21556v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21552v1": {
+        "title": "Paper: MIRROR: Learning from the Other View for Multi-Modal Reasoning...",
+        "company": "PI/Author: Xuezhe Ma",
+        "link": "http://arxiv.org/abs/2607.21552v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21547v1": {
+        "title": "Paper: The Boundaries of Automation: A Theory of Persistent Human Participati...",
+        "company": "PI/Author: Iryna Gurevych",
+        "link": "http://arxiv.org/abs/2607.21547v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21530v1": {
+        "title": "Paper: From Resource Flow to Executable Tests: Petri-Net-Guided LLM Test Gene...",
+        "company": "PI/Author: Guanjun Liu",
+        "link": "http://arxiv.org/abs/2607.21530v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21529v1": {
+        "title": "Paper: ElasticTTT: Prior-Preserving Test-Time Tuning for Video Editing...",
+        "company": "PI/Author: Miao Liu",
+        "link": "http://arxiv.org/abs/2607.21529v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21522v1": {
+        "title": "Paper: GS-Agent: Creating 4D Physical Worlds With Generative Simulation...",
+        "company": "PI/Author: Chuang Gan",
+        "link": "http://arxiv.org/abs/2607.21522v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21518v1": {
+        "title": "Paper: Same Dangerous Objective, Opposite Advice: Direct Exposure versus Mult...",
+        "company": "PI/Author: Linjun Li",
+        "link": "http://arxiv.org/abs/2607.21518v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21517v1": {
+        "title": "Paper: Improved lower bounds for the Shannon capacity of odd cycles...",
+        "company": "PI/Author: Daniel Reichman",
+        "link": "http://arxiv.org/abs/2607.21517v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21503v1": {
+        "title": "Paper: Agentic Context Management: Solving Agent Memory and Cost by Treating ...",
+        "company": "PI/Author: Gaurav Dadhich",
+        "link": "http://arxiv.org/abs/2607.21503v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21498v1": {
+        "title": "Paper: Artificial Epanorthosis: Why large language models overuse a classical...",
+        "company": "PI/Author: Federico Boggia",
+        "link": "http://arxiv.org/abs/2607.21498v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21495v1": {
+        "title": "Paper: Toward Continuous Assurance for the Democratization of AI Agent Creati...",
+        "company": "PI/Author: Harel Berger",
+        "link": "http://arxiv.org/abs/2607.21495v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21488v1": {
+        "title": "Paper: Compact Latent Coordination for Autonomous Vehicles at Unsignalized In...",
+        "company": "PI/Author: Gilad Katz",
+        "link": "http://arxiv.org/abs/2607.21488v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21482v1": {
+        "title": "Paper: Agentic coding without the cloud: evaluating open-weight large languag...",
+        "company": "PI/Author: David Bann",
+        "link": "http://arxiv.org/abs/2607.21482v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21475v1": {
+        "title": "Paper: Error Certificates for KV-Cache Eviction via Randomized Design...",
+        "company": "PI/Author: Peng Xie",
+        "link": "http://arxiv.org/abs/2607.21475v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21468v1": {
+        "title": "Paper: Thinkink: 2D Spatial Ink-native Interaction with LLMs...",
+        "company": "PI/Author: Jian Zhao",
+        "link": "http://arxiv.org/abs/2607.21468v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21461v1": {
+        "title": "Paper: AREX: Towards a Recursively Self-Improving Agent for Deep Research...",
+        "company": "PI/Author: Zheng Liu",
+        "link": "http://arxiv.org/abs/2607.21461v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21458v1": {
+        "title": "Paper: Detecting LLM-Generated Tokens in Human--LLM Coauthored Text...",
+        "company": "PI/Author: Jin Zhu",
+        "link": "http://arxiv.org/abs/2607.21458v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21447v1": {
+        "title": "Paper: RUMBA: Russian User Memory Benchmark...",
+        "company": "PI/Author: Alena Fenogenova",
+        "link": "http://arxiv.org/abs/2607.21447v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21437v1": {
+        "title": "Paper: Agent-Guided Relational Concept Discovery: Toward Interpretable Surgic...",
+        "company": "PI/Author: Parvin Mousavi",
+        "link": "http://arxiv.org/abs/2607.21437v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21434v1": {
+        "title": "Paper: Adaptive Identity Anchoring: Closed-Loop Keyframe Placement for Synthe...",
+        "company": "PI/Author: Logan Robbins",
+        "link": "http://arxiv.org/abs/2607.21434v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21433v1": {
+        "title": "Paper: Token Budget Saturation and Mechanistic Early Detection of Reasoning N...",
+        "company": "PI/Author: Abdirisak Mohamed",
+        "link": "http://arxiv.org/abs/2607.21433v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21421v1": {
+        "title": "Paper: Bridging the Gap Between Plausibility and Admissibility: Constraint-Aw...",
+        "company": "PI/Author: Alessio Merlo",
+        "link": "http://arxiv.org/abs/2607.21421v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21419v1": {
+        "title": "Paper: PATS: Policy-Aware Training Scaffolding for Agentic Reinforcement Lear...",
+        "company": "PI/Author: Zhengzhou Zhu",
+        "link": "http://arxiv.org/abs/2607.21419v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21414v1": {
+        "title": "Paper: Logical Regression for Planning with Axioms...",
+        "company": "PI/Author: Christian Muise",
+        "link": "http://arxiv.org/abs/2607.21414v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21412v1": {
+        "title": "Paper: Euclid-MCP: A Model Context Protocol Server for Deterministic Logical ...",
+        "company": "PI/Author: Bartolomeo Bogliolo",
+        "link": "http://arxiv.org/abs/2607.21412v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21407v1": {
+        "title": "Paper: Cycle-Consistent and Uncertainty-Aware Neural Surrogates for Tokamak E...",
+        "company": "PI/Author: Stefan Dasbach",
+        "link": "http://arxiv.org/abs/2607.21407v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21402v1": {
+        "title": "Paper: MSBraM: A Multi-scale Self-supervised Brain Foundation Model for Hiera...",
+        "company": "PI/Author: Zixing Zhang",
+        "link": "http://arxiv.org/abs/2607.21402v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21401v1": {
+        "title": "Paper: When Are Reasoning-Based Guardrails Not Efficient? ResponseGuard: A Fa...",
+        "company": "PI/Author: Dongbin Na",
+        "link": "http://arxiv.org/abs/2607.21401v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21400v1": {
+        "title": "Paper: VoLN: Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and M...",
+        "company": "PI/Author: Wenjun Wu",
+        "link": "http://arxiv.org/abs/2607.21400v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21384v1": {
+        "title": "Paper: Multimodal Pretraining for Generalizable EEG Representation Learning...",
+        "company": "PI/Author: Adham Atyabi",
+        "link": "http://arxiv.org/abs/2607.21384v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21381v1": {
+        "title": "Paper: Towards Faithful Graph Explanations with Synergistic Edge Effects via ...",
+        "company": "PI/Author: Fan Chen",
+        "link": "http://arxiv.org/abs/2607.21381v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21372v1": {
+        "title": "Paper: Mean-to-Score Discrete Diffusion: Posterior-Mean Denoisers for Score E...",
+        "company": "PI/Author: Pipi Hu",
+        "link": "http://arxiv.org/abs/2607.21372v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21371v1": {
+        "title": "Paper: DINOde: Continuous Vision-Text Alignment for Open-Vocabulary Semantic ...",
+        "company": "PI/Author: Kuk-Jin Yoon",
+        "link": "http://arxiv.org/abs/2607.21371v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21366v1": {
+        "title": "Paper: Hilbert Operator for Progressive Encoding (HOPE): A Mathematical Frame...",
+        "company": "PI/Author: Peter L. Bartlett",
+        "link": "http://arxiv.org/abs/2607.21366v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21354v1": {
+        "title": "Paper: SPORD: A Simulation-Propose-then-OR-Dispose Approach for Supply Chain ...",
+        "company": "PI/Author: Zuo-Jun Max Shen",
+        "link": "http://arxiv.org/abs/2607.21354v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21345v1": {
+        "title": "Paper: Regulating autonomous and agentic AI...",
+        "company": "PI/Author: Luka Shakhkulashvili",
+        "link": "http://arxiv.org/abs/2607.21345v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21343v1": {
+        "title": "Paper: M$^3$-Gen: Interpretable Multimodal Generation of Gene Expression Prof...",
+        "company": "PI/Author: Marco Venere",
+        "link": "http://arxiv.org/abs/2607.21343v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21332v1": {
+        "title": "Paper: Phonetic forced alignment for low-resource language varieties: Model t...",
+        "company": "PI/Author: Liang Zhao",
+        "link": "http://arxiv.org/abs/2607.21332v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21327v1": {
+        "title": "Paper: From Static Bibliometrics to Dynamic Knowledge Graphs: An LLM-Powered ...",
+        "company": "PI/Author: Muhsen Hammoud",
+        "link": "http://arxiv.org/abs/2607.21327v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21325v1": {
+        "title": "Paper: Toward cryptographically verifiable authorization for autonomous AI ag...",
+        "company": "PI/Author: D. Fernández-Fernández",
+        "link": "http://arxiv.org/abs/2607.21325v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21324v1": {
+        "title": "Paper: GRADRAG: Cross-Component Prompt Adaptation for Coordinated Multi-Agent...",
+        "company": "PI/Author: Enrico Santus",
+        "link": "http://arxiv.org/abs/2607.21324v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.21318v1": {
+        "title": "Paper: PC-Edit: Prompt-Contrastive Region Discovery and Region-Guided Editing...",
+        "company": "PI/Author: Zhijun Zhang",
+        "link": "http://arxiv.org/abs/2607.21318v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/jetbrains-backend-customer-success-engineer-kotlin-ecosystem": {
+        "title": "JetBrains: Backend Customer Success Engineer (Kotlin Ecosystem)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/jetbrains-backend-customer-success-engineer-kotlin-ecosystem",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/jumio-account-executive-us": {
+        "title": "Jumio: Account Executive, US",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/jumio-account-executive-us",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/webflow-corporate-account-executive-east": {
+        "title": "Webflow: Corporate Account Executive - East",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/webflow-corporate-account-executive-east",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/tebra-account-executive-customer-growth": {
+        "title": "Tebra: Account Executive, Customer Growth",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/tebra-account-executive-customer-growth",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/jumio-account-executive-latam": {
+        "title": "Jumio: Account Executive - LATAM",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/jumio-account-executive-latam",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/fivetran-account-executive-enterprise-1": {
+        "title": "Fivetran : Account Executive, Enterprise",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/fivetran-account-executive-enterprise-1",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/webflow-associate-general-counsel-corporate": {
+        "title": "Webflow: Associate General Counsel, Corporate",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/webflow-associate-general-counsel-corporate",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/bybit-business-development-specialist": {
+        "title": "Bybit: Business Development Specialist",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/bybit-business-development-specialist",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/everpure-account-executive-commercial-cleveland": {
+        "title": "Everpure: Account Executive, Commercial (Cleveland)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/everpure-account-executive-commercial-cleveland",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/tebra-account-executive-billing-company": {
+        "title": "Tebra: Account Executive, Billing Company",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/tebra-account-executive-billing-company",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/collibra-professional-services-sales-executive": {
+        "title": "Collibra: Professional Services Sales Executive",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/collibra-professional-services-sales-executive",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/launchdarkly-backend-engineer-flag-delivery": {
+        "title": "LaunchDarkly: Backend Engineer, Flag Delivery",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/launchdarkly-backend-engineer-flag-delivery",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/smartsheet-commercial-solutions-engineer": {
+        "title": "Smartsheet: Commercial Solutions Engineer",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/smartsheet-commercial-solutions-engineer",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/beyondtrust-account-executive-ii": {
+        "title": "BeyondTrust: Account Executive II",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/beyondtrust-account-executive-ii",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/bybit-blockchain-risk-control-research-intern": {
+        "title": "Bybit: Blockchain Risk Control Research Intern",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/bybit-blockchain-risk-control-research-intern",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/hightouch-ai-strategy-consultant": {
+        "title": "Hightouch: AI Strategy Consultant",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/hightouch-ai-strategy-consultant",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/sezzle-ai-engineer-ii-remote-1": {
+        "title": "Sezzle: AI Engineer II (Remote)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/sezzle-ai-engineer-ii-remote-1",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/reddit-backend-engineer-moderation-enforcement": {
+        "title": "Reddit: Backend Engineer, Moderation Enforcement",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/reddit-backend-engineer-moderation-enforcement",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/abnormal-content-strategist": {
+        "title": "Abnormal: Content Strategist",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/abnormal-content-strategist",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-cro": {
+        "title": "GitLab: AI Transformation Owner, CRO",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-cro",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/gitlab-ai-engineer": {
+        "title": "GitLab: AI Engineer",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/gitlab-ai-engineer",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/betterhelp-clinical-psychologist-remote": {
+        "title": "BetterHelp: Clinical Psychologist- Remote",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/betterhelp-clinical-psychologist-remote",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2626445": {
+        "title": "NSF Grant: Workshop on the Air-Water-Energy Nexus for the United States Intermountain West (PI: Armi...",
+        "company": "University of Arizona ($99262)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2626445",
+        "source": "NSF USA",
+        "created_date": "2026-07-24T09:11:51.870839",
+        "last_checked": "2026-07-24T09:11:51.870839",
+        "status": "active"
     }
 }
