@@ -4885,5 +4885,14 @@
         "created_date": "2026-07-24T17:15:04.080058",
         "last_checked": "2026-07-24T17:15:04.080058",
         "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619236": {
+        "title": "NSF Grant: III: A Declarative Data Management System for Semantic Multimodal Workflows (PI: Alvin Ch...",
+        "company": "University of California-Berkeley ($999997)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619236",
+        "source": "NSF USA",
+        "created_date": "2026-07-25T07:34:29.720560",
+        "last_checked": "2026-07-25T07:34:29.720560",
+        "status": "active"
     }
 }
