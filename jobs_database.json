@@ -7729,5 +7729,131 @@
         "created_date": "2026-07-30T02:00:59.799062",
         "last_checked": "2026-07-30T02:00:59.799062",
         "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27191v1": {
+        "title": "Paper: Can AI agents conduct open-ended AI research? Early evidence from two ...",
+        "company": "PI/Author: Arvind Narayanan",
+        "link": "http://arxiv.org/abs/2607.27191v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27189v1": {
+        "title": "Paper: APEX-Accounting...",
+        "company": "PI/Author: Bertie Vidgen",
+        "link": "http://arxiv.org/abs/2607.27189v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27179v1": {
+        "title": "Paper: The Social Cost of an AI Teammate: How an Artificial Teammate Reshapes...",
+        "company": "PI/Author: Spencer JaQuay",
+        "link": "http://arxiv.org/abs/2607.27179v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27177v1": {
+        "title": "Paper: Partner Capability Estimation for Task-Agnostic Adaptation in Ad-Hoc T...",
+        "company": "PI/Author: Matteo Leonetti",
+        "link": "http://arxiv.org/abs/2607.27177v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27172v1": {
+        "title": "Paper: Improving Item Discoverability in e-Commerce Search via Related Intent...",
+        "company": "PI/Author: Tejaswi Tenneti",
+        "link": "http://arxiv.org/abs/2607.27172v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27155v1": {
+        "title": "Paper: OmegaUse-OfficeVal: Benchmarking LLM Agents on Long-Horizon Office-Sui...",
+        "company": "PI/Author: Hua Wu",
+        "link": "http://arxiv.org/abs/2607.27155v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27154v1": {
+        "title": "Paper: Anatomy Contextualized Adaption of CT Foundation Models...",
+        "company": "PI/Author: William Lotter",
+        "link": "http://arxiv.org/abs/2607.27154v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27143v1": {
+        "title": "Paper: Cost-Sensitive Conformal Prediction and Human-in-the-Loop Abstention f...",
+        "company": "PI/Author: Shyamal Lakhanpal",
+        "link": "http://arxiv.org/abs/2607.27143v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27138v1": {
+        "title": "Paper: DLAM: Distributional Latent Actions with Temporal Constraints...",
+        "company": "PI/Author: Zhiheng Ma",
+        "link": "http://arxiv.org/abs/2607.27138v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27134v1": {
+        "title": "Paper: Linguistic Monoculture in LLM-Assisted Language Use...",
+        "company": "PI/Author: Lutz Oettershagen",
+        "link": "http://arxiv.org/abs/2607.27134v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2607.27130v1": {
+        "title": "Paper: AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Mat...",
+        "company": "PI/Author: Wen Zhang",
+        "link": "http://arxiv.org/abs/2607.27130v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/maven-clinic-content-creative-strategist": {
+        "title": "Maven Clinic: Content & Creative Strategist",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/maven-clinic-content-creative-strategist",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619567": {
+        "title": "NSF Grant: Research-based Interventions for Engaging Low-Income Undergraduates in STEM (PI: Daniel A...",
+        "company": "Black Hills State University ($2000000)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619567",
+        "source": "NSF USA",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619831": {
+        "title": "NSF Grant: S-STEM: Preparing Impactful Engineers in Oklahoma (PI: Sarah Breen)",
+        "company": "University of Oklahoma Norman Campus ($1998621)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619831",
+        "source": "NSF USA",
+        "created_date": "2026-07-30T08:18:53.440522",
+        "last_checked": "2026-07-30T08:18:53.440522",
+        "status": "active"
     }
 }
