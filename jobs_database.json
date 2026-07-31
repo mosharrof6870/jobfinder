@@ -8305,5 +8305,50 @@
         "created_date": "2026-07-31T02:26:48.076824",
         "last_checked": "2026-07-31T02:26:48.076824",
         "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/gitlab-area-vice-president-financial-services": {
+        "title": "GitLab: Area Vice President - Financial Services",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/gitlab-area-vice-president-financial-services",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-31T08:43:47.745364",
+        "last_checked": "2026-07-31T08:43:47.745364",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-marketing": {
+        "title": "GitLab: AI Transformation Owner, Marketing",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-marketing",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-07-31T08:43:47.745364",
+        "last_checked": "2026-07-31T08:43:47.745364",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2621699": {
+        "title": "NSF Grant: Collaborative Research: SHF: Scalable Cross-Layer Co-Design for Stable Mixed-Precision Ac...",
+        "company": "Dartmouth College ($405886)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2621699",
+        "source": "NSF USA",
+        "created_date": "2026-07-31T08:43:47.745364",
+        "last_checked": "2026-07-31T08:43:47.745364",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2621700": {
+        "title": "NSF Grant: Collaborative Research: SHF: Scalable Cross-Layer Co-Design for Stable Mixed-Precision Ac...",
+        "company": "Trustees of Boston University ($394792)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2621700",
+        "source": "NSF USA",
+        "created_date": "2026-07-31T08:43:47.745364",
+        "last_checked": "2026-07-31T08:43:47.745364",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2616141": {
+        "title": "NSF Grant: CAIG: Advancing AI atmospheric emulators through rigorous theoretical evaluation and unce...",
+        "company": "University of Chicago ($737081)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2616141",
+        "source": "NSF USA",
+        "created_date": "2026-07-31T08:43:47.745364",
+        "last_checked": "2026-07-31T08:43:47.745364",
+        "status": "active"
     }
 }
