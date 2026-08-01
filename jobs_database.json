@@ -8377,5 +8377,50 @@
         "created_date": "2026-08-01T02:27:14.340125",
         "last_checked": "2026-08-01T02:27:14.340125",
         "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619971": {
+        "title": "NSF Grant: Supporting the Success of Physical and Quantitative Sciences Scholars in Rural Appalachia...",
+        "company": "Marshall University Research Corporation ($2000000)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619971",
+        "source": "NSF USA",
+        "created_date": "2026-08-01T08:13:43.813683",
+        "last_checked": "2026-08-01T08:13:43.813683",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2626076": {
+        "title": "NSF Grant: Opto-charge Microscopy (OCM): Resolving Particle Dynamics in Electrochemical Network Mate...",
+        "company": "Purdue University ($367582)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2626076",
+        "source": "NSF USA",
+        "created_date": "2026-08-01T08:13:43.813683",
+        "last_checked": "2026-08-01T08:13:43.813683",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/clickhouse-ai-product-engineer-clickstack-1": {
+        "title": "ClickHouse: AI Product Engineer - ClickStack",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/clickhouse-ai-product-engineer-clickstack-1",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-01T08:13:43.813683",
+        "last_checked": "2026-08-01T08:13:43.813683",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/smartsheet-financial-analyst-go-to-market-gtm-fp-a-west": {
+        "title": "Smartsheet: Financial Analyst, Go to Market (GTM) FP&A - (West)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/smartsheet-financial-analyst-go-to-market-gtm-fp-a-west",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-01T08:13:43.813683",
+        "last_checked": "2026-08-01T08:13:43.813683",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/temporal-technologies-accounts-payable-specialist": {
+        "title": "Temporal Technologies: Accounts Payable Specialist",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/temporal-technologies-accounts-payable-specialist",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-01T08:13:43.813683",
+        "last_checked": "2026-08-01T08:13:43.813683",
+        "status": "active"
     }
 }
