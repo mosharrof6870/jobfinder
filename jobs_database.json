@@ -11833,5 +11833,194 @@
         "created_date": "2026-08-07T02:28:10.903230",
         "last_checked": "2026-08-07T02:28:10.903230",
         "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06377v1": {
+        "title": "Paper: Learning When to Trust via Selective Context Preference Optimization...",
+        "company": "PI/Author: Lingdong Kong",
+        "link": "http://arxiv.org/abs/2608.06377v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06366v1": {
+        "title": "Paper: Tracing the Heart: An Evidence-Linked Pipeline for Heart-Failure Featu...",
+        "company": "PI/Author: Priyadarshini Kachroo",
+        "link": "http://arxiv.org/abs/2608.06366v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06364v1": {
+        "title": "Paper: Investigating Artificial Intelligence Digital Sovereignty in Mobile Sh...",
+        "company": "PI/Author: Sajda Qureshi",
+        "link": "http://arxiv.org/abs/2608.06364v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06363v1": {
+        "title": "Paper: An Optimal Agnostic PAC Algorithm...",
+        "company": "PI/Author: Nikita Zhivotovskiy",
+        "link": "http://arxiv.org/abs/2608.06363v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06362v1": {
+        "title": "Paper: AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid St...",
+        "company": "PI/Author: Longbo Huang",
+        "link": "http://arxiv.org/abs/2608.06362v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06361v1": {
+        "title": "Paper: The Low Frequency Trap: Video Language Models Fail at Simple Event Boo...",
+        "company": "PI/Author: Furong Huang",
+        "link": "http://arxiv.org/abs/2608.06361v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06353v1": {
+        "title": "Paper: Resourced Authority A Mechanism-Design Model for Participatory Governa...",
+        "company": "PI/Author: Ganesh Ghalme",
+        "link": "http://arxiv.org/abs/2608.06353v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06351v1": {
+        "title": "Paper: Challenges in Evaluating Explanation Methods for Static and Evolving D...",
+        "company": "PI/Author: Jerzy Stefanowski",
+        "link": "http://arxiv.org/abs/2608.06351v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06346v1": {
+        "title": "Paper: TRAJDEBUG: Tracing Error Lifecycle to Identify Critical Failures in Lo...",
+        "company": "PI/Author: Juanzi Li",
+        "link": "http://arxiv.org/abs/2608.06346v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06331v1": {
+        "title": "Paper: Tytan: Interactive Neurosymbolic Construction of Analytic Semantic Sch...",
+        "company": "PI/Author: Kristian J. Hammond",
+        "link": "http://arxiv.org/abs/2608.06331v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06329v1": {
+        "title": "Paper: Benchmarking the Benchmarks: Evaluating Benchmarks for Conversational ...",
+        "company": "PI/Author: Abigail Goldsteen",
+        "link": "http://arxiv.org/abs/2608.06329v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06311v1": {
+        "title": "Paper: Does FLAIR super-resolution erase or hallucinate small white-matter le...",
+        "company": "PI/Author: Paul Yushkevich",
+        "link": "http://arxiv.org/abs/2608.06311v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06305v1": {
+        "title": "Paper: Beyond Top-K: Replacing Black-Box Retrieval with Interpretable Agentic...",
+        "company": "PI/Author: Tabarakul Hazarika",
+        "link": "http://arxiv.org/abs/2608.06305v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06301v1": {
+        "title": "Paper: HarnessOpt-Bench: Evaluating LLMs at Harness Optimization...",
+        "company": "PI/Author: Yuan Xue",
+        "link": "http://arxiv.org/abs/2608.06301v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06300v1": {
+        "title": "Paper: Bias Analysis of L2 Speaking Assessment Systems Using Concept Activati...",
+        "company": "PI/Author: Kate Knill",
+        "link": "http://arxiv.org/abs/2608.06300v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06294v1": {
+        "title": "Paper: QuanTiMedAI: Quantum-Enhanced Time-Series Model guided by Agentic AI f...",
+        "company": "PI/Author: Sumaiya Tabassum Nimi",
+        "link": "http://arxiv.org/abs/2608.06294v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06291v1": {
+        "title": "Paper: BaKron: Efficient Quantization with Kronecker-Factored Hessians...",
+        "company": "PI/Author: Rayan Saab",
+        "link": "http://arxiv.org/abs/2608.06291v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535115": {
+        "title": "NSF Grant: EPSCoR Graduate Fellowship Program (EGFP): Graduate Research Fellowships at Montana State...",
+        "company": "Montana State University ($636000)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2535115",
+        "source": "NSF USA",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2603968": {
+        "title": "NSF Grant: RUI: Accelerating Advanced Sampling in Multi-Dimensional NMR (PI: David Rovnyak)",
+        "company": "Bucknell University ($236565)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2603968",
+        "source": "NSF USA",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2624436": {
+        "title": "NSF Grant: Intrinsic Geometry-Aware Distributed Continuous-Time Optimization on SO(3) for Multi-agen...",
+        "company": "University of California-Riverside ($472262)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2624436",
+        "source": "NSF USA",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2620285": {
+        "title": "NSF Grant: S-STEM: Future STEM Professionals in Artificial Intelligence, Robotics, Quantum Science, ...",
+        "company": "University of Colorado at Boulder ($2000000)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2620285",
+        "source": "NSF USA",
+        "created_date": "2026-08-07T07:08:39.391032",
+        "last_checked": "2026-08-07T07:08:39.391032",
+        "status": "active"
     }
 }
