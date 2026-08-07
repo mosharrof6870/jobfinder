@@ -11383,5 +11383,455 @@
         "created_date": "2026-08-06T23:54:56.888442",
         "last_checked": "2026-08-06T23:54:56.888442",
         "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06270v1": {
+        "title": "Paper: The Illusion of Visual Tool-Use: A Causal Audit of Thinking with Image...",
+        "company": "PI/Author: Chaochao Lu",
+        "link": "http://arxiv.org/abs/2608.06270v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06265v1": {
+        "title": "Paper: Improving the Realism of Synthetic Clinical Benchmarks Under Utility C...",
+        "company": "PI/Author: Christine Swisher",
+        "link": "http://arxiv.org/abs/2608.06265v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06252v1": {
+        "title": "Paper: Toward Deployable Bangla Sign Language Recognition with Expert-Validat...",
+        "company": "PI/Author: Md Khalid Syfullaha",
+        "link": "http://arxiv.org/abs/2608.06252v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06243v1": {
+        "title": "Paper: DASH: Divergence-Adaptive Supervision Horizons for On-Policy Self-Dist...",
+        "company": "PI/Author: Yafeng Deng",
+        "link": "http://arxiv.org/abs/2608.06243v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06240v1": {
+        "title": "Paper: PRISM: Distribution-Gated Flow Matching for Controllable Unpaired Imag...",
+        "company": "PI/Author: Natan T. Shaked",
+        "link": "http://arxiv.org/abs/2608.06240v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06236v1": {
+        "title": "Paper: Depth-Guided Video Object Counting in Crowded Scenes...",
+        "company": "PI/Author: Weigang Zhang",
+        "link": "http://arxiv.org/abs/2608.06236v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06227v1": {
+        "title": "Paper: From Passive Mirrors to Active Agents: Holonic Digital Twins for Physi...",
+        "company": "PI/Author: Walid Saad",
+        "link": "http://arxiv.org/abs/2608.06227v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06223v1": {
+        "title": "Paper: TS-RAG: Retrieval Augmented Generation for Time Series Forecasting...",
+        "company": "PI/Author: Jingbo Zhou",
+        "link": "http://arxiv.org/abs/2608.06223v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06216v1": {
+        "title": "Paper: Continual Learning in Transition...",
+        "company": "PI/Author: Tat-Seng Chua",
+        "link": "http://arxiv.org/abs/2608.06216v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06202v1": {
+        "title": "Paper: What Current AI Benchmarks Leave Unmeasured: Modality, Search, Citatio...",
+        "company": "PI/Author: Danaé Metaxa",
+        "link": "http://arxiv.org/abs/2608.06202v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06197v1": {
+        "title": "Paper: EnvACE: Internalizing Environment Dynamics via World Rehearsal for Age...",
+        "company": "PI/Author: Weiwen Liu",
+        "link": "http://arxiv.org/abs/2608.06197v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06196v1": {
+        "title": "Paper: Comparative Approaches to Agent Retrieval over Large Skill Libraries...",
+        "company": "PI/Author: Nathan Sportsman",
+        "link": "http://arxiv.org/abs/2608.06196v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06183v1": {
+        "title": "Paper: MicroEvo: Knowledge-Guided LLM Sampling for Efficient Microarchitectur...",
+        "company": "PI/Author: Tao Xie",
+        "link": "http://arxiv.org/abs/2608.06183v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06167v1": {
+        "title": "Paper: Schema-Guided Hierarchical Information Extraction and Semantic Evaluat...",
+        "company": "PI/Author: Lourens T. Bloem",
+        "link": "http://arxiv.org/abs/2608.06167v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06165v1": {
+        "title": "Paper: Audio-to-Score Transcription using Pre-trained Features, Data Augmenta...",
+        "company": "PI/Author: Yaolong Ju",
+        "link": "http://arxiv.org/abs/2608.06165v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06161v1": {
+        "title": "Paper: iARCS: Iterative Agentic RL for Controllable 3D Scene Generation...",
+        "company": "PI/Author: Danda Pani Paudel",
+        "link": "http://arxiv.org/abs/2608.06161v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06154v1": {
+        "title": "Paper: Visual Grounding in Zero-Shot Vision-Language Control...",
+        "company": "PI/Author: I. de Zarzà",
+        "link": "http://arxiv.org/abs/2608.06154v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06153v1": {
+        "title": "Paper: Learning Globally Reusable Skills for Coding Agents...",
+        "company": "PI/Author: Junjie Chen",
+        "link": "http://arxiv.org/abs/2608.06153v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06151v1": {
+        "title": "Paper: Reducing belief in conspiracy theories as they unfold using large lang...",
+        "company": "PI/Author: David Rand",
+        "link": "http://arxiv.org/abs/2608.06151v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06150v1": {
+        "title": "Paper: CogVis: Must Open-Vocabulary Change Detection Perceive the Scene Anew ...",
+        "company": "PI/Author: Wei He",
+        "link": "http://arxiv.org/abs/2608.06150v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06146v1": {
+        "title": "Paper: PaDoc: Layout-Grounded Parallel Decoding for Document Parsing...",
+        "company": "PI/Author: Chun Yuan",
+        "link": "http://arxiv.org/abs/2608.06146v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06144v1": {
+        "title": "Paper: FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Pro...",
+        "company": "PI/Author: Chi Zhang",
+        "link": "http://arxiv.org/abs/2608.06144v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06130v1": {
+        "title": "Paper: Hardware Keystores for AI Agent Signing Workflows: A Zero-Trust MCP En...",
+        "company": "PI/Author: Sampo Sovio",
+        "link": "http://arxiv.org/abs/2608.06130v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06128v1": {
+        "title": "Paper: Contextual Information Policy Optimization for Search Agents...",
+        "company": "PI/Author: Baochang Zhang",
+        "link": "http://arxiv.org/abs/2608.06128v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06123v1": {
+        "title": "Paper: Poli-Bias: Understanding and Measuring Large Language Model Biases in ...",
+        "company": "PI/Author: Holger Boche",
+        "link": "http://arxiv.org/abs/2608.06123v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06122v1": {
+        "title": "Paper: Is Self-Pretraining really useful to improve diagnosis in medical Time...",
+        "company": "PI/Author: Loredana Zollo",
+        "link": "http://arxiv.org/abs/2608.06122v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06115v1": {
+        "title": "Paper: Mind the Gaps: Mixture-of-Minds for Human Simulation...",
+        "company": "PI/Author: Pranav Dahiya",
+        "link": "http://arxiv.org/abs/2608.06115v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06111v1": {
+        "title": "Paper: Beyond Sequence Order: Syntax-Informed Positional Embeddings for Trans...",
+        "company": "PI/Author: Mihai Surdeanu",
+        "link": "http://arxiv.org/abs/2608.06111v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06112v1": {
+        "title": "Paper: From Siloed Algorithms to Compliance-First Agentic Platforms: A Multi-...",
+        "company": "PI/Author: Sharat Chandra Kumar Manikonda",
+        "link": "http://arxiv.org/abs/2608.06112v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06110v1": {
+        "title": "Paper: ECHO: A Locally-Deployable Agentic Health Assistant with Temporal Memo...",
+        "company": "PI/Author: Faik Boray Tek",
+        "link": "http://arxiv.org/abs/2608.06110v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06108v1": {
+        "title": "Paper: Evaluating Investment Logic in Large Language Models: A Real-World Ben...",
+        "company": "PI/Author: Shijie Dai",
+        "link": "http://arxiv.org/abs/2608.06108v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06105v1": {
+        "title": "Paper: Does Latent Context Help? A Controlled Evaluation of Inverse Reinforce...",
+        "company": "PI/Author: Gabriel Spadon",
+        "link": "http://arxiv.org/abs/2608.06105v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06085v1": {
+        "title": "Paper: Signal or Spurious Cue? A Randomized Audit of Survey-Country Metadata ...",
+        "company": "PI/Author: Xiujuan Xu",
+        "link": "http://arxiv.org/abs/2608.06085v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06075v1": {
+        "title": "Paper: Domain-Grounded Candidate Selection for Agentic Image Editing: A Shado...",
+        "company": "PI/Author: Hieu Le",
+        "link": "http://arxiv.org/abs/2608.06075v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06057v1": {
+        "title": "Paper: When History Lies: Evaluating and Improving Tool Use under Misleading ...",
+        "company": "PI/Author: Wenhui Que",
+        "link": "http://arxiv.org/abs/2608.06057v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06037v1": {
+        "title": "Paper: Integrating Implicit and Explicit Relational Biases through Graph-Base...",
+        "company": "PI/Author: Michał Grochowski",
+        "link": "http://arxiv.org/abs/2608.06037v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06027v1": {
+        "title": "Paper: FormBharo: Designing and Evaluating a Voice Agent for Conversational F...",
+        "company": "PI/Author: Jigar Doshi",
+        "link": "http://arxiv.org/abs/2608.06027v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06020v1": {
+        "title": "Paper: From Economic Agents to Agentic Economies: A Systems Blueprint for Eco...",
+        "company": "PI/Author: Lin William Cong",
+        "link": "http://arxiv.org/abs/2608.06020v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06015v1": {
+        "title": "Paper: ProDVI: Programmatic Dynamics Priors for Value Network Initialization...",
+        "company": "PI/Author: Wuhui Chen",
+        "link": "http://arxiv.org/abs/2608.06015v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06012v1": {
+        "title": "Paper: HERALD: Counterfactual Audits and Minimal Repairs for Proof-of-Retriev...",
+        "company": "PI/Author: Hao Li",
+        "link": "http://arxiv.org/abs/2608.06012v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.06001v1": {
+        "title": "Paper: Hybrid Machine Learning Framework for Herd-Level Cattle Growth Pattern...",
+        "company": "PI/Author: David W. Lamb",
+        "link": "http://arxiv.org/abs/2608.06001v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.05990v1": {
+        "title": "Paper: OPERA: Operator-residual feedback for reliable autonomous optical expe...",
+        "company": "PI/Author: Hui Ning",
+        "link": "http://arxiv.org/abs/2608.05990v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.05987v1": {
+        "title": "Paper: AgentOPSD: Recursive Self-Distillation for Agentic Reinforcement Learn...",
+        "company": "PI/Author: Yujiu Yang",
+        "link": "http://arxiv.org/abs/2608.05987v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.05981v1": {
+        "title": "Paper: Temporal Bridges for Spatial Resolution: Enhancing Climate Data Super-...",
+        "company": "PI/Author: Jingbo Zhou",
+        "link": "http://arxiv.org/abs/2608.05981v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.05975v1": {
+        "title": "Paper: TRACE: Learned Proprioceptive Odometry for Legged Robots under Unrelia...",
+        "company": "PI/Author: Jemin Hwangbo",
+        "link": "http://arxiv.org/abs/2608.05975v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.05970v1": {
+        "title": "Paper: SkillMemo: Expert-guided Skill Memory Framework for Compositional Embo...",
+        "company": "PI/Author: Jiwen Lu",
+        "link": "http://arxiv.org/abs/2608.05970v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.05960v1": {
+        "title": "Paper: Big, Bright, or Invisible: A Frozen-Feature Benchmark of 3D CT Foundat...",
+        "company": "PI/Author: Philip Müller",
+        "link": "http://arxiv.org/abs/2608.05960v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.05958v1": {
+        "title": "Paper: Stability of Ranking-dependent Pair-wise Comparison Patterns in the An...",
+        "company": "PI/Author: Oleh Andriichuk",
+        "link": "http://arxiv.org/abs/2608.05958v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.05954v1": {
+        "title": "Paper: Training a Conditioned Video Game Agent on a VLM Annotated Dataset...",
+        "company": "PI/Author: Iuri Frosio",
+        "link": "http://arxiv.org/abs/2608.05954v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.05949v1": {
+        "title": "Paper: VLMs for Videogame Data Annotation...",
+        "company": "PI/Author: Iuri Frosio",
+        "link": "http://arxiv.org/abs/2608.05949v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-07T02:28:10.903230",
+        "last_checked": "2026-08-07T02:28:10.903230",
+        "status": "active"
     }
 }
