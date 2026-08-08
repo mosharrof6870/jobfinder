@@ -4892,7 +4892,7 @@
         "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619236",
         "source": "NSF USA",
         "created_date": "2026-07-25T07:34:29.720560",
-        "last_checked": "2026-07-25T07:34:29.720560",
+        "last_checked": "2026-08-08T12:38:28.630175",
         "status": "active"
     },
     "https://remotive.com/remote-jobs/sales/business-development-representative-2091075": {
@@ -12102,6 +12102,24 @@
         "source": "NSF USA",
         "created_date": "2026-08-08T06:43:53.032099",
         "last_checked": "2026-08-08T06:43:53.032099",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/fivetran-accountant": {
+        "title": "Fivetran : Accountant",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/fivetran-accountant",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-08T12:38:35.303872",
+        "last_checked": "2026-08-08T12:38:35.303872",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/gemini-analyst-compliance-investigations": {
+        "title": "Gemini: Analyst, Compliance (Investigations)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/gemini-analyst-compliance-investigations",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-08T12:38:35.303872",
+        "last_checked": "2026-08-08T12:38:35.303872",
         "status": "active"
     }
 }
