@@ -12085,5 +12085,23 @@
         "created_date": "2026-08-07T18:50:09.003146",
         "last_checked": "2026-08-07T18:50:09.003146",
         "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2607830": {
+        "title": "NSF Grant: High order entropy stable finite elements for unsteady compressible flows via entropy cor...",
+        "company": "University of Texas at Austin ($270000)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2607830",
+        "source": "NSF USA",
+        "created_date": "2026-08-08T06:43:53.032099",
+        "last_checked": "2026-08-08T06:43:53.032099",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625743": {
+        "title": "NSF Grant: Collaborative Research: FDT-BioTech: Mathematical Foundations of Adaptable Digital Twins ...",
+        "company": "University of California-Irvine ($547876)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625743",
+        "source": "NSF USA",
+        "created_date": "2026-08-08T06:43:53.032099",
+        "last_checked": "2026-08-08T06:43:53.032099",
+        "status": "active"
     }
 }
