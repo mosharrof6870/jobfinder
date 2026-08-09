@@ -4901,7 +4901,7 @@
         "link": "https://remotive.com/remote-jobs/sales/business-development-representative-2091075",
         "source": "Remotive",
         "created_date": "2026-07-25T15:46:49.468012",
-        "last_checked": "2026-07-25T15:46:49.468012",
+        "last_checked": "2026-08-09T12:40:44.054459",
         "status": "active"
     },
     "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091074": {
@@ -4910,7 +4910,7 @@
         "link": "https://remotive.com/remote-jobs/all-others/content-reviewer-united-states-2091074",
         "source": "Remotive",
         "created_date": "2026-07-25T15:46:49.468012",
-        "last_checked": "2026-07-25T15:46:49.468012",
+        "last_checked": "2026-08-09T12:40:44.054459",
         "status": "active"
     },
     "http://arxiv.org/abs/2607.22534v1": {
@@ -12120,6 +12120,15 @@
         "source": "WeWorkRemotely",
         "created_date": "2026-08-08T12:38:35.303872",
         "last_checked": "2026-08-08T12:38:35.303872",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/iterable-account-executive-enterprise-west-region": {
+        "title": "Iterable: Account Executive (Enterprise) - West Region",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/iterable-account-executive-enterprise-west-region",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-09T12:40:55.494833",
+        "last_checked": "2026-08-09T12:40:55.494833",
         "status": "active"
     }
 }
