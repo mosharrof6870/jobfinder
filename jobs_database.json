@@ -12580,5 +12580,23 @@
         "created_date": "2026-08-10T07:24:05.032950",
         "last_checked": "2026-08-10T07:24:05.032950",
         "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/lithic-software-engineer-treasury": {
+        "title": "Lithic: Software Engineer, Treasury",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/lithic-software-engineer-treasury",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-10T12:58:10.540967",
+        "last_checked": "2026-08-10T12:58:10.540967",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/airbnb-data-scientist-algorithms-community-support": {
+        "title": "Airbnb: Data Scientist - Algorithms, Community Support",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/airbnb-data-scientist-algorithms-community-support",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-10T12:58:10.540967",
+        "last_checked": "2026-08-10T12:58:10.540967",
+        "status": "active"
     }
 }
