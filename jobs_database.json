@@ -8357,7 +8357,7 @@
         "link": "https://europepmc.org/article/MED/42532768",
         "source": "Professors",
         "created_date": "2026-07-31T13:55:14.309618",
-        "last_checked": "2026-07-31T13:55:14.309618",
+        "last_checked": "2026-08-15T06:30:56.503113",
         "status": "active"
     },
     "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2551196": {
@@ -8366,7 +8366,7 @@
         "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2551196",
         "source": "NSF USA",
         "created_date": "2026-08-01T02:27:14.340125",
-        "last_checked": "2026-08-01T02:27:14.340125",
+        "last_checked": "2026-08-15T06:30:56.503113",
         "status": "active"
     },
     "https://weworkremotely.com/remote-jobs/6-figure-creative-remote-high-ticket-closer": {
@@ -8375,7 +8375,7 @@
         "link": "https://weworkremotely.com/remote-jobs/6-figure-creative-remote-high-ticket-closer",
         "source": "WeWorkRemotely",
         "created_date": "2026-08-01T02:27:14.340125",
-        "last_checked": "2026-08-01T02:27:14.340125",
+        "last_checked": "2026-08-15T06:30:56.503113",
         "status": "active"
     },
     "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619971": {
@@ -14766,6 +14766,33 @@
         "source": "WeWorkRemotely",
         "created_date": "2026-08-14T12:56:56.721609",
         "last_checked": "2026-08-14T12:56:56.721609",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625857": {
+        "title": "NSF Grant: FDT-BioTech: Trustworthy Digital Twins for Patient-Specific Evaluation of Implant Systems...",
+        "company": "Texas A&M Engineering Experiment Station ($513000)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625857",
+        "source": "NSF USA",
+        "created_date": "2026-08-15T06:31:01.805408",
+        "last_checked": "2026-08-15T06:31:01.805408",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625501": {
+        "title": "NSF Grant: Collaborative Research: CCSS: Semantic-Aware Collaborative Perception and Networking for ...",
+        "company": "Lehigh University ($240000)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625501",
+        "source": "NSF USA",
+        "created_date": "2026-08-15T06:31:01.805408",
+        "last_checked": "2026-08-15T06:31:01.805408",
+        "status": "active"
+    },
+    "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625502": {
+        "title": "NSF Grant: Collaborative Research: CCSS: Semantic-Aware Collaborative Perception and Networking for ...",
+        "company": "Illinois Institute of Technology ($200000)",
+        "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2625502",
+        "source": "NSF USA",
+        "created_date": "2026-08-15T06:31:01.805408",
+        "last_checked": "2026-08-15T06:31:01.805408",
         "status": "active"
     }
 }
