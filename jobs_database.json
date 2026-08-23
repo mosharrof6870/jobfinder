@@ -4892,7 +4892,7 @@
         "link": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2619236",
         "source": "NSF USA",
         "created_date": "2026-07-25T07:34:29.720560",
-        "last_checked": "2026-08-08T12:38:28.630175",
+        "last_checked": "2026-08-23T12:31:08.944191",
         "status": "active"
     },
     "https://remotive.com/remote-jobs/sales/business-development-representative-2091075": {
@@ -12110,7 +12110,7 @@
         "link": "https://weworkremotely.com/remote-jobs/fivetran-accountant",
         "source": "WeWorkRemotely",
         "created_date": "2026-08-08T12:38:35.303872",
-        "last_checked": "2026-08-08T12:38:35.303872",
+        "last_checked": "2026-08-23T12:31:08.944191",
         "status": "active"
     },
     "https://weworkremotely.com/remote-jobs/gemini-analyst-compliance-investigations": {
@@ -12119,7 +12119,7 @@
         "link": "https://weworkremotely.com/remote-jobs/gemini-analyst-compliance-investigations",
         "source": "WeWorkRemotely",
         "created_date": "2026-08-08T12:38:35.303872",
-        "last_checked": "2026-08-08T12:38:35.303872",
+        "last_checked": "2026-08-23T12:31:08.944191",
         "status": "active"
     },
     "https://weworkremotely.com/remote-jobs/iterable-account-executive-enterprise-west-region": {
@@ -17367,6 +17367,42 @@
         "source": "WeWorkRemotely",
         "created_date": "2026-08-22T12:30:35.624646",
         "last_checked": "2026-08-22T12:30:35.624646",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/grafana-labs-associate-observability-architect-pst-remote": {
+        "title": "Grafana Labs: Associate Observability Architect | PST | Remote",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/grafana-labs-associate-observability-architect-pst-remote",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-23T12:31:45.974113",
+        "last_checked": "2026-08-23T12:31:45.974113",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/gitlab-associate-solutions-architect-french-or-german-fluency": {
+        "title": "GitLab: Associate Solutions Architect (French or German fluency)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/gitlab-associate-solutions-architect-french-or-german-fluency",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-23T12:31:45.974113",
+        "last_checked": "2026-08-23T12:31:45.974113",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-product-design": {
+        "title": "GitLab: AI Transformation Owner, Product & Design",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/gitlab-ai-transformation-owner-product-design",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-23T12:31:45.974113",
+        "last_checked": "2026-08-23T12:31:45.974113",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/customer-io-contract-legal-assistant": {
+        "title": "Customer.io: Contract Legal Assistant",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/customer-io-contract-legal-assistant",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-08-23T12:31:45.974113",
+        "last_checked": "2026-08-23T12:31:45.974113",
         "status": "active"
     }
 }
