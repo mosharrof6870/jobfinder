@@ -17881,5 +17881,455 @@
         "created_date": "2026-08-25T01:02:27.477662",
         "last_checked": "2026-08-25T01:02:27.477662",
         "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23566v1": {
+        "title": "Paper: How to Train a Critic Stably and Efficiently...",
+        "company": "PI/Author: Wee Sun Lee",
+        "link": "http://arxiv.org/abs/2608.23566v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23565v1": {
+        "title": "Paper: ReWorld: An Interactive World Model with Long-Horizon Memory...",
+        "company": "PI/Author: Yingcong Chen",
+        "link": "http://arxiv.org/abs/2608.23565v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23564v1": {
+        "title": "Paper: SWE Refactor Bench: Can Coding Agents Complete a Long-Horizon, Whole-R...",
+        "company": "PI/Author: Qinhuai Na",
+        "link": "http://arxiv.org/abs/2608.23564v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23563v1": {
+        "title": "Paper: EG-ARSA: An Expert-Grounded Open Model for Visual Road Safety Auditing...",
+        "company": "PI/Author: Moazzem Hossain",
+        "link": "http://arxiv.org/abs/2608.23563v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23562v1": {
+        "title": "Paper: Physics-Constrained Deep Learning Model for Contactless Blood Pressure...",
+        "company": "PI/Author: Wenzhan Song",
+        "link": "http://arxiv.org/abs/2608.23562v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23552v1": {
+        "title": "Paper: Prime Agent: A Self-Improving RLM Harness...",
+        "company": "PI/Author: Sami Jaghouar",
+        "link": "http://arxiv.org/abs/2608.23552v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23551v1": {
+        "title": "Paper: ConvergeFlow: Language Flow with Provable Convergence to Token Embeddi...",
+        "company": "PI/Author: Gen Li",
+        "link": "http://arxiv.org/abs/2608.23551v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23543v1": {
+        "title": "Paper: How AI Assistance Affects Human Skill Development: A Study of Learning...",
+        "company": "PI/Author: Padhraic Smyth",
+        "link": "http://arxiv.org/abs/2608.23543v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23541v1": {
+        "title": "Paper: The Interaction Tax: When Communication Erases Diversity in Multi-Agen...",
+        "company": "PI/Author: Chenhao Tan",
+        "link": "http://arxiv.org/abs/2608.23541v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23536v1": {
+        "title": "Paper: Adapter-Based Few-Shot Continual Learning for Malicious Packet Recogni...",
+        "company": "PI/Author: Andrew Arash Mahyari",
+        "link": "http://arxiv.org/abs/2608.23536v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23526v1": {
+        "title": "Paper: Correcting a learned physical invariant improves world-model rollouts...",
+        "company": "PI/Author: Richard Bao",
+        "link": "http://arxiv.org/abs/2608.23526v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23525v1": {
+        "title": "Paper: EarthVerse: Benchmarking Scientific Agents Across Dynamic Earth System...",
+        "company": "PI/Author: Jinhua Zhao",
+        "link": "http://arxiv.org/abs/2608.23525v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23524v1": {
+        "title": "Paper: The Measurement Revolution? Credible Measurement and Inference in the ...",
+        "company": "PI/Author: Ashesh Rambachan",
+        "link": "http://arxiv.org/abs/2608.23524v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23507v1": {
+        "title": "Paper: When Names Cross Scripts: A Source-Grounded Benchmark for Historical E...",
+        "company": "PI/Author: Zeyu Zhang",
+        "link": "http://arxiv.org/abs/2608.23507v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23497v1": {
+        "title": "Paper: Mitigating Reasoning-Induced Misalignment via Safety-Direction Penalty...",
+        "company": "PI/Author: Di Wang",
+        "link": "http://arxiv.org/abs/2608.23497v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23493v1": {
+        "title": "Paper: SRPO: Self-Reflective Policy Optimization for Long-Horizon Reasoning...",
+        "company": "PI/Author: Zuchao Li",
+        "link": "http://arxiv.org/abs/2608.23493v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23484v1": {
+        "title": "Paper: Multi-Modal Semantic Expansion with Constrained LLM Reranking for Conv...",
+        "company": "PI/Author: George Fazekas",
+        "link": "http://arxiv.org/abs/2608.23484v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23478v1": {
+        "title": "Paper: Act with Intent: Distilling Behavior Intent for Vision-Language-Action...",
+        "company": "PI/Author: Wook-Shin Han",
+        "link": "http://arxiv.org/abs/2608.23478v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23475v1": {
+        "title": "Paper: StrategyBench: Evaluating Explicit Strategy Induction in Large Languag...",
+        "company": "PI/Author: Maosong Sun",
+        "link": "http://arxiv.org/abs/2608.23475v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23474v1": {
+        "title": "Paper: What's the Catch? Evaluating Temporal Consistency in Vision-Language M...",
+        "company": "PI/Author: Danae Sánchez Villegas",
+        "link": "http://arxiv.org/abs/2608.23474v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23473v1": {
+        "title": "Paper: MetaCaster: Meta-Harness-Optimized Agent for End-to-End Few-Shot Learn...",
+        "company": "PI/Author: Jingchao Ni",
+        "link": "http://arxiv.org/abs/2608.23473v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23471v1": {
+        "title": "Paper: InjecMEM: Memory Injection Attack on LLM Agent Memory Systems...",
+        "company": "PI/Author: Xiaolin Huang",
+        "link": "http://arxiv.org/abs/2608.23471v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23469v1": {
+        "title": "Paper: Machine Learning Assisted Inverse Design of Pixelated mmWave Patch Ant...",
+        "company": "PI/Author: Lester Ho",
+        "link": "http://arxiv.org/abs/2608.23469v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23452v1": {
+        "title": "Paper: Reward-Free Continual Adaptation for Resilient Space Robots...",
+        "company": "PI/Author: Carol Martinez",
+        "link": "http://arxiv.org/abs/2608.23452v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23446v1": {
+        "title": "Paper: Characterizing Necessary Losers to Explain Tournaments Losers...",
+        "company": "PI/Author: Jérôme Mengin",
+        "link": "http://arxiv.org/abs/2608.23446v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23435v1": {
+        "title": "Paper: Towards Comprehensive Basketball Understanding...",
+        "company": "PI/Author: Weidi Xie",
+        "link": "http://arxiv.org/abs/2608.23435v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23429v1": {
+        "title": "Paper: ChebBooster: A Training-Free Approach for Efficient Diffusion Transfor...",
+        "company": "PI/Author: Xueliang Li",
+        "link": "http://arxiv.org/abs/2608.23429v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23417v1": {
+        "title": "Paper: SkillAlchemy: Open-World Agent Skill Creation...",
+        "company": "PI/Author: Yongxin Tong",
+        "link": "http://arxiv.org/abs/2608.23417v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23400v1": {
+        "title": "Paper: Adaptive Item-based Collaborative Structures via Noise Rescheduling in...",
+        "company": "PI/Author: Shuigeng Zhou",
+        "link": "http://arxiv.org/abs/2608.23400v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23397v1": {
+        "title": "Paper: MediSkill-Evo: Process-Constrained Self-Evolution for Evidence-Grounde...",
+        "company": "PI/Author: Feifei Zhao",
+        "link": "http://arxiv.org/abs/2608.23397v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23395v1": {
+        "title": "Paper: Right-Sizing LLM-Agent Decomposition in VAT Determination: A Pilot Con...",
+        "company": "PI/Author: Pedro Santos",
+        "link": "http://arxiv.org/abs/2608.23395v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23392v1": {
+        "title": "Paper: Towards a Densing Law for User Representation Learning at Billion-Scal...",
+        "company": "PI/Author: Weiqiang Wang",
+        "link": "http://arxiv.org/abs/2608.23392v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23391v1": {
+        "title": "Paper: Cross-Domain, Multi-Task Data-to-Text Generation without In-Domain Tra...",
+        "company": "PI/Author: Claire Gardent",
+        "link": "http://arxiv.org/abs/2608.23391v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23390v1": {
+        "title": "Paper: Cross-lingual Biography Enrichment via Claim Extraction and Alignment...",
+        "company": "PI/Author: Claire Gardent",
+        "link": "http://arxiv.org/abs/2608.23390v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23375v1": {
+        "title": "Paper: Adversarial Entropy Inflation Against Gumbel-Based Inference Verificat...",
+        "company": "PI/Author: Nikita Kezins",
+        "link": "http://arxiv.org/abs/2608.23375v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23373v1": {
+        "title": "Paper: Modalities Should Talk to Each Other: Dual-Stream Multimodal Learning ...",
+        "company": "PI/Author: Parvin Razzaghi",
+        "link": "http://arxiv.org/abs/2608.23373v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23370v1": {
+        "title": "Paper: Walking on the DARKSIDE...",
+        "company": "PI/Author: Emanuele Bottazzi",
+        "link": "http://arxiv.org/abs/2608.23370v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23363v1": {
+        "title": "Paper: DF-MoE: Generalizable Deepfake Detection via Multimodal Sparse Mixture...",
+        "company": "PI/Author: Radu Tudor Ionescu",
+        "link": "http://arxiv.org/abs/2608.23363v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23338v1": {
+        "title": "Paper: The Emergence of Relevance Through Axiomatic Attention Patterns During...",
+        "company": "PI/Author: James Allan",
+        "link": "http://arxiv.org/abs/2608.23338v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23329v1": {
+        "title": "Paper: Thinking Beyond Videos: Unifying Video Reasoning and Deep Research for...",
+        "company": "PI/Author: Xuemeng Song",
+        "link": "http://arxiv.org/abs/2608.23329v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23323v1": {
+        "title": "Paper: Mycelial Search: A Graph-Structured Metaheuristic for Continuous Optim...",
+        "company": "PI/Author: Mohammad Mahdi Dehshibi",
+        "link": "http://arxiv.org/abs/2608.23323v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23318v1": {
+        "title": "Paper: Agent-G$^2$: Gaussian Guidance for Agentic Reinforcement Learning...",
+        "company": "PI/Author: Yongliang Shen",
+        "link": "http://arxiv.org/abs/2608.23318v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23313v1": {
+        "title": "Paper: EviSafe: Evidence-Grounded Safety Evaluation for Vision-Language Model...",
+        "company": "PI/Author: Gaofeng Liu",
+        "link": "http://arxiv.org/abs/2608.23313v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23308v1": {
+        "title": "Paper: FIDES: A Concordance Protocol for LLM-Generated Trading Strategies...",
+        "company": "PI/Author: Aaron Chan",
+        "link": "http://arxiv.org/abs/2608.23308v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23300v1": {
+        "title": "Paper: Evaluating SAT Solver Metrics as Predictors of Human-Perceived Nonogra...",
+        "company": "PI/Author: Alice Gao",
+        "link": "http://arxiv.org/abs/2608.23300v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23296v1": {
+        "title": "Paper: Sigmoid Attention as a Better Substrate for Learned KV Cache Eviction...",
+        "company": "PI/Author:  Li",
+        "link": "http://arxiv.org/abs/2608.23296v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23286v1": {
+        "title": "Paper: How Much Regularization Survives Averaging? Update Masking in Federate...",
+        "company": "PI/Author: Zhenke Chen",
+        "link": "http://arxiv.org/abs/2608.23286v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23283v1": {
+        "title": "Paper: Apodex 1.1: Scaling Agentic Intelligence for Complex Work...",
+        "company": "PI/Author: Z. Zhang",
+        "link": "http://arxiv.org/abs/2608.23283v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23264v1": {
+        "title": "Paper: Hidden in the Request: Explaining Unethical LLM Compliance through Tok...",
+        "company": "PI/Author: Joseph Keshet",
+        "link": "http://arxiv.org/abs/2608.23264v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2608.23263v1": {
+        "title": "Paper: Automated Construction of FAIR Digital Object Knowledge Graphs from Fl...",
+        "company": "PI/Author: Georgios Toubekis",
+        "link": "http://arxiv.org/abs/2608.23263v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-08-25T06:39:05.563989",
+        "last_checked": "2026-08-25T06:39:05.563989",
+        "status": "active"
     }
 }
