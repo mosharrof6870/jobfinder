@@ -31210,5 +31210,23 @@
         "created_date": "2026-09-23T03:06:15.060324",
         "last_checked": "2026-09-23T03:06:15.060324",
         "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-chicago": {
+        "title": "Glean: Enterprise Account Executive, Chicago",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/glean-enterprise-account-executive-chicago",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-09-23T10:41:56.112473",
+        "last_checked": "2026-09-23T10:41:56.112473",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/twilio-account-executive-3": {
+        "title": "Twilio: Account Executive 3",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/twilio-account-executive-3",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-09-23T10:41:56.112473",
+        "last_checked": "2026-09-23T10:41:56.112473",
+        "status": "active"
     }
 }
