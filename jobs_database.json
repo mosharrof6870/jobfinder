@@ -26483,7 +26483,7 @@
         "link": "https://weworkremotely.com/remote-jobs/pinterest-data-scientist-ii-ml-infrastructure",
         "source": "WeWorkRemotely",
         "created_date": "2026-09-13T11:00:52.893756",
-        "last_checked": "2026-09-13T11:00:52.893756",
+        "last_checked": "2026-09-27T11:18:06.690598",
         "status": "active"
     },
     "https://weworkremotely.com/remote-jobs/fastly-threat-detection-analyst-japanese-english-speaking": {
@@ -26492,7 +26492,7 @@
         "link": "https://weworkremotely.com/remote-jobs/fastly-threat-detection-analyst-japanese-english-speaking",
         "source": "WeWorkRemotely",
         "created_date": "2026-09-13T11:00:52.893756",
-        "last_checked": "2026-09-13T11:00:52.893756",
+        "last_checked": "2026-09-27T11:18:06.690598",
         "status": "active"
     },
     "https://weworkremotely.com/remote-jobs/everpure-account-executive-commercial-pittsburgh": {
@@ -26501,7 +26501,7 @@
         "link": "https://weworkremotely.com/remote-jobs/everpure-account-executive-commercial-pittsburgh",
         "source": "WeWorkRemotely",
         "created_date": "2026-09-13T11:00:52.893756",
-        "last_checked": "2026-09-13T11:00:52.893756",
+        "last_checked": "2026-09-27T11:18:06.690598",
         "status": "active"
     },
     "https://weworkremotely.com/remote-jobs/everpure-account-executive-commercial-alaska": {
@@ -26510,7 +26510,7 @@
         "link": "https://weworkremotely.com/remote-jobs/everpure-account-executive-commercial-alaska",
         "source": "WeWorkRemotely",
         "created_date": "2026-09-13T11:00:52.893756",
-        "last_checked": "2026-09-13T11:00:52.893756",
+        "last_checked": "2026-09-27T11:18:06.690598",
         "status": "active"
     },
     "https://weworkremotely.com/remote-jobs/pinterest-data-scientist-ii-infrastructure": {
@@ -26519,7 +26519,7 @@
         "link": "https://weworkremotely.com/remote-jobs/pinterest-data-scientist-ii-infrastructure",
         "source": "WeWorkRemotely",
         "created_date": "2026-09-13T11:00:52.893756",
-        "last_checked": "2026-09-13T11:00:52.893756",
+        "last_checked": "2026-09-27T11:18:06.690598",
         "status": "active"
     },
     "http://arxiv.org/abs/2609.13134v1": {
@@ -32280,6 +32280,51 @@
         "source": "WeWorkRemotely",
         "created_date": "2026-09-27T03:25:17.254618",
         "last_checked": "2026-09-27T03:25:17.254618",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/fivetran-compensation-analytics-partner": {
+        "title": "Fivetran : Compensation & Analytics Partner",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/fivetran-compensation-analytics-partner",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-09-27T11:18:43.264691",
+        "last_checked": "2026-09-27T11:18:43.264691",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/jfrog-strategic-account-executive": {
+        "title": "JFrog: Strategic Account Executive",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/jfrog-strategic-account-executive",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-09-27T11:18:43.264691",
+        "last_checked": "2026-09-27T11:18:43.264691",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/fivetran-analyst-gtm-analytics": {
+        "title": "Fivetran : Analyst, GTM Analytics",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/fivetran-analyst-gtm-analytics",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-09-27T11:18:43.264691",
+        "last_checked": "2026-09-27T11:18:43.264691",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/jfrog-solution-engineer-presales-public-sector-us-remote": {
+        "title": "JFrog: Solution Engineer, Presales - Public Sector (US Remote)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/jfrog-solution-engineer-presales-public-sector-us-remote",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-09-27T11:18:43.264691",
+        "last_checked": "2026-09-27T11:18:43.264691",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/pagerduty-enterprise-account-executive-san-francisco": {
+        "title": "PagerDuty: Enterprise Account Executive (San Francisco)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/pagerduty-enterprise-account-executive-san-francisco",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-09-27T11:18:43.264691",
+        "last_checked": "2026-09-27T11:18:43.264691",
         "status": "active"
     }
 }
