@@ -62107,5 +62107,635 @@
         "created_date": "2026-11-26T01:33:04.503006",
         "last_checked": "2026-11-26T01:33:04.503006",
         "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34942v1": {
+        "title": "Paper: Spectrum Adaptation of AI-Native Autoencoder Communications with Trans...",
+        "company": "PI/Author: Tugba Erpek",
+        "link": "http://arxiv.org/abs/2611.34942v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34934v1": {
+        "title": "Paper: Attack Policy Selection can Mislead Monitor Evaluators...",
+        "company": "PI/Author: Xander Davies",
+        "link": "http://arxiv.org/abs/2611.34934v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34928v1": {
+        "title": "Paper: Diverse Alternative Reasoning Traces for Hard Math Problems...",
+        "company": "PI/Author: Sinead Williamson",
+        "link": "http://arxiv.org/abs/2611.34928v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34920v1": {
+        "title": "Paper: $μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interacti...",
+        "company": "PI/Author: Jing Shao",
+        "link": "http://arxiv.org/abs/2611.34920v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34899v1": {
+        "title": "Paper: Enhancing Maritime Domain Awareness using Latent Space Representations...",
+        "company": "PI/Author: Conrad M Albrecht",
+        "link": "http://arxiv.org/abs/2611.34899v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34887v1": {
+        "title": "Paper: Interpretable and Accurate Hybrid Decision Trees with Selective Case-B...",
+        "company": "PI/Author: Riccardo Guidotti",
+        "link": "http://arxiv.org/abs/2611.34887v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34875v1": {
+        "title": "Paper: How Much Do Coding Agents Over-Edit, and Why? An Empirical Study of Un...",
+        "company": "PI/Author: Yu Hu",
+        "link": "http://arxiv.org/abs/2611.34875v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34870v1": {
+        "title": "Paper: Shape-Aware Three-Way Merge for RDF Knowledge Graphs: The schema defin...",
+        "company": "PI/Author: Steve Brown",
+        "link": "http://arxiv.org/abs/2611.34870v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34868v1": {
+        "title": "Paper: A Survey of Security, Privacy, and Ethics of Large Language Models in ...",
+        "company": "PI/Author: Srinivas Adyapak",
+        "link": "http://arxiv.org/abs/2611.34868v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34864v1": {
+        "title": "Paper: RePace: Reasoning about Demonstration Speedup for Faster Vision-Langua...",
+        "company": "PI/Author: Dongsu Han",
+        "link": "http://arxiv.org/abs/2611.34864v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34862v1": {
+        "title": "Paper: BOP-Refer: Benchmark for Monocular 3D and 2D Object Grounding...",
+        "company": "PI/Author: Carsten Rother",
+        "link": "http://arxiv.org/abs/2611.34862v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34858v1": {
+        "title": "Paper: From Prediction to Decision: Decision-Focused Fine-Tuning of Autoregre...",
+        "company": "PI/Author: Zain Khandwala",
+        "link": "http://arxiv.org/abs/2611.34858v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34852v1": {
+        "title": "Paper: DRBench Pro: A Knowledge-Centric Benchmark for Professional Deep Resea...",
+        "company": "PI/Author: Yongliang Shen",
+        "link": "http://arxiv.org/abs/2611.34852v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34843v1": {
+        "title": "Paper: Probing Visual Idiosyncrasies in Text-to-Image Models...",
+        "company": "PI/Author: Yixin Zhu",
+        "link": "http://arxiv.org/abs/2611.34843v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34841v1": {
+        "title": "Paper: Knowledge-Base Gradient Descent: Self-Structuring Learning through Que...",
+        "company": "PI/Author: Masahiro Kato",
+        "link": "http://arxiv.org/abs/2611.34841v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34831v1": {
+        "title": "Paper: Repairing the Trustworthiness of Distilled Language Models...",
+        "company": "PI/Author: Prathosh AP",
+        "link": "http://arxiv.org/abs/2611.34831v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34830v1": {
+        "title": "Paper: Not all world models can doubt: how training objective and architectur...",
+        "company": "PI/Author: Jackie Ma",
+        "link": "http://arxiv.org/abs/2611.34830v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34816v1": {
+        "title": "Paper: Transferring Architecture as an Optimization Prior...",
+        "company": "PI/Author: Brian Cheung",
+        "link": "http://arxiv.org/abs/2611.34816v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34813v1": {
+        "title": "Paper: Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Th...",
+        "company": "PI/Author: Hokin Deng",
+        "link": "http://arxiv.org/abs/2611.34813v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34811v1": {
+        "title": "Paper: HOG-WAM: Improving Visual Robustness through Future Gradient Predictio...",
+        "company": "PI/Author: Weihao Yu",
+        "link": "http://arxiv.org/abs/2611.34811v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34785v1": {
+        "title": "Paper: PersonaFactory: Stylistic User Prompt Augmentation with Synthetic Pers...",
+        "company": "PI/Author: Imanol Schlag",
+        "link": "http://arxiv.org/abs/2611.34785v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34777v1": {
+        "title": "Paper: When Every Rollout Fails: Splicing Learner-Conditioned Options into Lo...",
+        "company": "PI/Author: Jiaqi Wang",
+        "link": "http://arxiv.org/abs/2611.34777v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34770v1": {
+        "title": "Paper: Make the Adversary Spend More: Stateful Deception as a Cost-Exchange P...",
+        "company": "PI/Author: Michele Colajanni",
+        "link": "http://arxiv.org/abs/2611.34770v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34763v1": {
+        "title": "Paper: InterConRank: Joint Node Centrality in Interconnected Heterogeneous Ne...",
+        "company": "PI/Author: Jiaojiao Jiang",
+        "link": "http://arxiv.org/abs/2611.34763v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34762v1": {
+        "title": "Paper: TASK Memory: Beyond Text-Only Memory with Activation Steering and Know...",
+        "company": "PI/Author: Wenjun Wu",
+        "link": "http://arxiv.org/abs/2611.34762v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34760v1": {
+        "title": "Paper: One Model, Many Modes: Evolving System Prompt Ensembles for Creative G...",
+        "company": "PI/Author: Ramya Korlakai Vinayak",
+        "link": "http://arxiv.org/abs/2611.34760v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34758v1": {
+        "title": "Paper: Reading Fine-Tuning Diffs Through Lenses: Model Diffing for Backdoor D...",
+        "company": "PI/Author: Chris Kapulkin",
+        "link": "http://arxiv.org/abs/2611.34758v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34756v1": {
+        "title": "Paper: Collect for Coverage, Replay with Evidence: Adaptive and Efficient On-...",
+        "company": "PI/Author: Jiaqi Wang",
+        "link": "http://arxiv.org/abs/2611.34756v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34751v1": {
+        "title": "Paper: What Is a Theory Worth to an LLM Solver? Measuring, Inducing, and Merg...",
+        "company": "PI/Author: Shuchao Bi",
+        "link": "http://arxiv.org/abs/2611.34751v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34745v1": {
+        "title": "Paper: How Well Do Vision-Language Scene Graphs Serve as Memory for Embodied ...",
+        "company": "PI/Author: Amit Sheth",
+        "link": "http://arxiv.org/abs/2611.34745v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34708v1": {
+        "title": "Paper: From Shared Patterns to Individual Evidence: Two-Stage Reasoning for E...",
+        "company": "PI/Author: Ke Yan",
+        "link": "http://arxiv.org/abs/2611.34708v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34707v1": {
+        "title": "Paper: When the Proxy Is Wrong: Mismatch-Corrected Bandits for Adaptive Data ...",
+        "company": "PI/Author: Gwénolé Lecorvé",
+        "link": "http://arxiv.org/abs/2611.34707v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34703v1": {
+        "title": "Paper: Maco-RL: Scaling Agent Capabilities with Mixed-Task Reinforcement Lear...",
+        "company": "PI/Author: Zhaoxiang Zhang",
+        "link": "http://arxiv.org/abs/2611.34703v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34698v1": {
+        "title": "Paper: A Failure-Driven Data Flywheel for Post-Training Vision-Language-Actio...",
+        "company": "PI/Author: Sikai Chen",
+        "link": "http://arxiv.org/abs/2611.34698v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34687v1": {
+        "title": "Paper: Evacuation Traffic Prediction for Dynamic Transportation Networks over...",
+        "company": "PI/Author: Samiul Hasan",
+        "link": "http://arxiv.org/abs/2611.34687v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34681v1": {
+        "title": "Paper: Find the Clue, Not the Scene: Rethinking Reasoning for Entity Recognit...",
+        "company": "PI/Author: Kyomin Jung",
+        "link": "http://arxiv.org/abs/2611.34681v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34675v1": {
+        "title": "Paper: RoboEvo$^2$: Recursive Robot Self-Improvement via Harness-Policy Co-Ev...",
+        "company": "PI/Author: Xiaojuan Qi",
+        "link": "http://arxiv.org/abs/2611.34675v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34671v1": {
+        "title": "Paper: DemoFoundry: Toward Scalable Photorealistic Robot Data with Coding Age...",
+        "company": "PI/Author: Kui Jia",
+        "link": "http://arxiv.org/abs/2611.34671v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34662v1": {
+        "title": "Paper: Multi-Party Authorization of Maintenance Prescriptions on a Permission...",
+        "company": "PI/Author: Anders Skoogh",
+        "link": "http://arxiv.org/abs/2611.34662v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34656v1": {
+        "title": "Paper: Do We Still Need Reinforcement Learning When We Can Read the World Mod...",
+        "company": "PI/Author: Zhiwei Xu",
+        "link": "http://arxiv.org/abs/2611.34656v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34646v1": {
+        "title": "Paper: REE: A Scientific Research Entrance Exam for AI Agents...",
+        "company": "PI/Author: Weihao Xuan",
+        "link": "http://arxiv.org/abs/2611.34646v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34644v1": {
+        "title": "Paper: Motion Beyond Pixels: Learning Future Visual Representations for Objec...",
+        "company": "PI/Author: Lin Shao",
+        "link": "http://arxiv.org/abs/2611.34644v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34637v1": {
+        "title": "Paper: Carrying Feature Ablations Across Sparse Autoencoder Seeds...",
+        "company": "PI/Author: Karl Li",
+        "link": "http://arxiv.org/abs/2611.34637v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34635v1": {
+        "title": "Paper: ZeroHero: Training Small Language Agents from Scratch...",
+        "company": "PI/Author: Aleksandr Panov",
+        "link": "http://arxiv.org/abs/2611.34635v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34634v1": {
+        "title": "Paper: LatentRL-QAS: Transfer via Latent Reinforcement Learning for Quantum A...",
+        "company": "PI/Author: Akash Kundu",
+        "link": "http://arxiv.org/abs/2611.34634v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34627v1": {
+        "title": "Paper: DecisionReplay: A Corpus and Offline Simulator for Ensembling Decision...",
+        "company": "PI/Author: Seffi Cohen",
+        "link": "http://arxiv.org/abs/2611.34627v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34624v1": {
+        "title": "Paper: HoMe: Toward Practical Harness Optimization of Memory Systems for AI A...",
+        "company": "PI/Author: Hong Mei",
+        "link": "http://arxiv.org/abs/2611.34624v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34623v1": {
+        "title": "Paper: From Models to Services: Systematizing Security Assurance for Model-as...",
+        "company": "PI/Author: Zhonghai Wu",
+        "link": "http://arxiv.org/abs/2611.34623v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34612v1": {
+        "title": "Paper: Do We Really Need an LLM for Weight-Space Programming? A Deterministic...",
+        "company": "PI/Author: Lin Yao",
+        "link": "http://arxiv.org/abs/2611.34612v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "http://arxiv.org/abs/2611.34603v1": {
+        "title": "Paper: VisualMontage: Manipulating the Beliefs of Vision-Language Agents with...",
+        "company": "PI/Author: Xiaowei Huang",
+        "link": "http://arxiv.org/abs/2611.34603v1",
+        "source": "ArXiv Papers",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/massive-rocket-recruiter": {
+        "title": "Massive Rocket: Recruiter",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/massive-rocket-recruiter",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/saviynt-commercial-legal-counsel": {
+        "title": "Saviynt: Commercial Legal Counsel",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/saviynt-commercial-legal-counsel",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/synapticure-care-team-intake-specialist": {
+        "title": "Synapticure: Care Team Intake Specialist",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/synapticure-care-team-intake-specialist",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/kpler-contract-analyst": {
+        "title": "Kpler: Contract Analyst",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/kpler-contract-analyst",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/welo-data-brazilian-subject-matter-expert-in-fashion-style": {
+        "title": "Welo Data: Brazilian Subject Matter Expert in Fashion & Style",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/welo-data-brazilian-subject-matter-expert-in-fashion-style",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/welo-data-brazilian-subject-matter-expert-in-tv-movies": {
+        "title": "Welo Data: Brazilian Subject Matter Expert in TV & Movies",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/welo-data-brazilian-subject-matter-expert-in-tv-movies",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/welo-data-crux-video-and-audio-qa-english-us": {
+        "title": "Welo Data: Crux - Video and Audio QA - English (US)",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/welo-data-crux-video-and-audio-qa-english-us",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/jobgether-head-of-customer-support": {
+        "title": "Jobgether: Head of Customer Support",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/jobgether-head-of-customer-support",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-technical-support-engineer": {
+        "title": "ZoomInfo Technologies LLC: Technical Support Engineer",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/zoominfo-technologies-llc-technical-support-engineer",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/dropbox-integrated-campaign-strategist": {
+        "title": "Dropbox: Integrated Campaign Strategist",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/dropbox-integrated-campaign-strategist",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/maven-clinic-resolution-response-specialist": {
+        "title": "Maven Clinic: Resolution Response Specialist",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/maven-clinic-resolution-response-specialist",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/dropbox-infrastructure-software-engineer-orchestration": {
+        "title": "Dropbox: Infrastructure Software Engineer, Orchestration",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/dropbox-infrastructure-software-engineer-orchestration",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/maven-clinic-regional-vice-president-taft-hartley-labor": {
+        "title": "Maven Clinic: Regional Vice President, Taft-Hartley & Labor",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/maven-clinic-regional-vice-president-taft-hartley-labor",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/rubrik-job-board-gsi-account-executive-ltm-hcl": {
+        "title": "Rubrik Job Board: GSI Account Executive - LTM/HCL",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/rubrik-job-board-gsi-account-executive-ltm-hcl",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/rubrik-job-board-global-solutions-architect": {
+        "title": "Rubrik Job Board: Global Solutions Architect",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/rubrik-job-board-global-solutions-architect",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/reddit-international-payroll-analyst": {
+        "title": "Reddit: International Payroll Analyst",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/reddit-international-payroll-analyst",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/salesloft-regional-vice-president-enterprise-account-management": {
+        "title": "Salesloft: Regional Vice President, Enterprise Account Management",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/salesloft-regional-vice-president-enterprise-account-management",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/coinbase-enterprise-engineer": {
+        "title": "Coinbase: Enterprise Engineer",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/coinbase-enterprise-engineer",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/coinbase-concierge-specialist-iii": {
+        "title": "Coinbase: Concierge Specialist III",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/coinbase-concierge-specialist-iii",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
+    },
+    "https://weworkremotely.com/remote-jobs/launchdarkly-strategic-account-executive-west": {
+        "title": "LaunchDarkly: Strategic Account Executive - West",
+        "company": "Client",
+        "link": "https://weworkremotely.com/remote-jobs/launchdarkly-strategic-account-executive-west",
+        "source": "WeWorkRemotely",
+        "created_date": "2026-11-26T16:18:18.562415",
+        "last_checked": "2026-11-26T16:18:18.562415",
+        "status": "active"
     }
 }
